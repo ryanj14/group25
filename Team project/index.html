@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>home</title>
+<meta charset="utf-8">
+<Link rel="stylesheet" href="index.css">
+</head>
+<body>
+<header>
+<a href="#"><img src="img/game.png" alt="logo"></a>
+<ul>
+<li><button class="button" onclick="document.getElementById('id01').style.display='block'">SIGN IN</button>&nbsp;<button class="button" onclick="document.getElementById('id02').style.display='block'">SIGN UP</button></li>
+</ul>
+<div id="id01" class="modal">
+<form class="modal-content">
+<div class="container">
+<label><b>User Name</b></label>
+<input type="text" placeholder="ENTER YOUR USERID"name="unname">
+<label><b>Password</b></label>
+<input type="password" placeholder="ENTER YOUR PASSWORD" name="pw">
+<button class="loginbutton2" type="submit">Login</button>
+<button class="cancelbutton" type="button" onclick="document.getElementById('id01').style.display='none'">CANCEL</button>
+</div>
+</form>
+</div>
+<div id="id02" class="modal">
+<form class="modal-content">
+<div class="container">
+<label><b>User Name</b></label>
+<input type="text" placeholder="ENTER YOUR USERID" name="newname">
+<label><b>Password</b></label>
+<input type="password" placeholder="ENTER YOUR PASSWORD" name="newpassword">
+<button class="loginbutton2" type="submit">REGISTER</button>
+<button class="cancelbutton" type="button" onclick="document.getElementById('id02').style.display='none'">CANCEL</button>
+</div>
+</form>
+</div>
+</header>
+<nav>
+<strong>X-GLOBAL</strong>
+<button class="button1"><a href="#">HOME</a></button>
+<div class="dropdown">
+<button class="dropbtn">CATEGORY</button>
+<div class="dropdown-content">
+<ul>
+<li><a href="#">PC GAME</a>
+<li><a href="mobile.html">Mobile Game</a>
+<li><a href="#">Console Game</a>
+</ul>
+</div>
+</div>
+<button class="button1"><a href="#">CONTACT</a></button>
+<button class="button1"><a href="#">SITE MAP</a></button>
+</nav>
+<main>
+<div class="news">
+<div class="newsimg">
+<div class="overlap">
+<span class="Enter"><a href="#">ENTER</a></span>
+</div>
+</div>
+<p class="center">News Name</p>
+<p>Comments<br>
+<textarea rows="2" name="comment">Enter your comment here!</textarea><p>
+</div>
+<div class="news">
+<div class="newsimg">
+<div class="overlap">
+<span class="Enter"><a href="#">ENTER</a></span>
+</div>
+</div>
+<p class="center">News Name</p>
+<p>Comments<br>
+<textarea rows="2" name="comment">Enter your comment here!</textarea><p>
+</div>
+<div class="news">
+<div class="newsimg">
+<div class="overlap">
+<span class="Enter"><a href="#">ENTER</a></span>
+</div>
+</div>
+<p class="center">News Name</p>
+<p>Comments<br>
+<textarea rows="2" name="comment">Enter your comment here!</textarea><p>
+</div>
+</main>
+<footer>
+<p>COPYRIGHT&copy; X-GLOBAL LTD DESIGNED BY RYAN|WEI|KEN</p>
+</footer>
+</body>
+</html>
+
+
+
