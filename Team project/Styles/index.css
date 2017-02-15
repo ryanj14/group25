@@ -114,6 +114,39 @@ main{width:70%;
           background-size:cover;
           border-radius:5px;
           overflow:hidden;}
+.cod {width:462px;
+          height:320px;
+		  box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+		  border-bottom:2px solid #fff;
+          border-right:2px solid #fff;
+          margin-left:auto;
+		  margin-right:auto;
+          background-image:url(../images/codinfinitewarfare.png);
+          background-size:cover;
+          border-radius:5px;
+          overflow:hidden;}			  
+.zelda {width:462px;
+          height:320px;
+		  box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+		  border-bottom:2px solid #fff;
+          border-right:2px solid #fff;
+          margin-left:auto;
+		  margin-right:auto;
+          background-image:url(../images/breathofthewild2.png);
+          background-size:cover;
+          border-radius:5px;
+          overflow:hidden;}
+.battlefield {width:462px;
+          height:320px;
+		  box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+		  border-bottom:2px solid #fff;
+          border-right:2px solid #fff;
+          margin-left:auto;
+		  margin-right:auto;
+          background-image:url(../images/battlefield1.png);
+          background-size:cover;
+          border-radius:5px;
+          overflow:hidden;}		  
 .overlap {  width:462px;
             height:320px;
             background:rgba(0,0,0,.75);
@@ -122,6 +155,9 @@ main{width:70%;
             opacity:0;
             transition: opacity .25s ease;}
 .newsimg:hover .overlap{opacity:1}
+.battlefield:hover .overlap{opacity:1}
+.cod:hover .overlap{opacity:1}
+.zelda:hover .overlap{opacity:1}
 .Enter a{font-family:Impact, Charcoal, sans-serif;
         font-weight:200px;
 		color:white;
@@ -132,11 +168,15 @@ main{width:70%;
 		border-bottom:2px solid black;
 		padding-top:20px}
 .news textarea {width:100%}
+.center2{width:462px;
+        margin-left:auto;
+        margin-right:auto;
+		text-align:center;}	
 .center{width:462px;
         margin-left:auto;
 		margin-right:auto;
 	    text-align:center;
-		border-bottom:2px solid black}
+		border-bottom:2px solid black}	
 footer{background-color:black;
        text-align:center;
 	   color:white;
