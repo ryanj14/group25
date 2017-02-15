@@ -1,0 +1,184 @@
+body{margin:0;
+	 padding:0}
+header{background-color:white}
+input{width:100%;
+      height:30px;
+      padding:12px,20px;
+	  border:1px solid black;
+	  margin: 10px 0}
+.loginbutton2 {background-color:#4CAF50;
+          color:white;
+		  padding:14px 20px;
+		  margin: 8px 0;
+		  border: none;
+		  cursor: pointer;
+          width:100%}
+.cancelbutton {background-color:red;
+          color:white;
+		  padding:14px 20px;
+		  margin: 8px 0;
+		  border: none;
+		  cursor: pointer;
+          width:100%}
+.container{padding:16px}
+
+.modal {display:none;
+        position:fixed;
+		z-index:1;
+		left:0;
+		top:0;
+		width:100%;
+		height:100%;
+		overflow:auto;
+		background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0,0.4); 
+        padding-top: 60px;}
+.modal-content {background-color: #fefefe;
+                margin:10% auto 15% auto;
+				border-radius:12px;
+				border: 1px solid #888;
+				width:50%;}				
+.button{background-color:white;
+        border:2px solid black;
+		color:black;
+		padding:15px 32px;
+		text-align:center;
+		text-decoration:none;
+		font-size:16px;
+		cursor:pointer;
+		border-radius:12px}
+header img{width:65px;
+            height:74px;
+			padding:20px 0px 30px 20px;
+			float:left}
+header ul{text-align:right;
+          list-style-type:none;}
+nav{background-color:black;
+    clear:left}
+.dropbtn {color:white;
+          padding:10px 30px 10px 30px;
+          background-color:black;
+		  font-family:Impact, Charcoal, sans-serif;
+          border:none;
+		  cursor:pointer;
+		  font-size:16px;}
+nav a {text-decoration:none;
+       color:white;
+	   font-family:Impact, Charcoal, sans-serif;
+	   display:inline-block}
+nav strong{color:white;
+           font-family:Impact, Charcoal, sans-serif;
+	       padding-left:5px;
+	       font-style:bold;
+		   font-size:20px} 
+.button1 {padding:10px 30px 10px 30px;
+        font-size:16px;
+		background-color:black;
+		border:none;
+		text-decoration:none;
+		color:white;}
+.dropdown {position:relative;
+           display:inline-block}
+.dropdown-content {display:none;
+                   position:absolute;
+				   background-color:black;
+				   color:white;
+				   z-index:1}
+.dropdown-content a {display:block;
+                     color:white;
+					 text-decoration:none;
+					 }
+.dropdown-content ul{list-style-type:none;
+                      padding-left:0px}
+.dropdown-content li{padding-top:5px;
+                     padding-bottom:5px;
+					 padding-left:0px}			 
+.dropdown-content a:hover{color:white;
+                          text-shadow:3px 3px 3px white}
+.dropdown:hover .dropdown-content {display:block;
+                                   padding:5px 30px 5px 5px;}
+
+.dropdown:hover .button1 {color:white;
+                          text-shadow:3px 3px 3px white}
+main{width:70%;
+     margin-left:auto;
+	 margin-right:auto}
+.newsimg {width:462px;
+          height:320px;
+		  box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+		  border-bottom:2px solid #fff;
+          border-right:2px solid #fff;
+          margin-left:auto;
+		  margin-right:auto;
+          background-image:url(img/here.png);
+          background-size:cover;
+          border-radius:5px;
+          overflow:hidden;}
+.zelda {width:462px;
+          height:320px;
+		  box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+		  border-bottom:2px solid #fff;
+          border-right:2px solid #fff;
+          margin-left:auto;
+		  margin-right:auto;
+          background-image:url(img/breathofthewild2.png);
+          background-size:cover;
+          border-radius:5px;
+          overflow:hidden;}
+.cod {width:462px;
+          height:320px;
+		  box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+		  border-bottom:2px solid #fff;
+          border-right:2px solid #fff;
+          margin-left:auto;
+		  margin-right:auto;
+          background-image:url(img/codinfinitewarfare.png);
+          background-size:cover;
+          border-radius:5px;
+          overflow:hidden;}	
+.battlefield {width:462px;
+          height:320px;
+		  box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+		  border-bottom:2px solid #fff;
+          border-right:2px solid #fff;
+          margin-left:auto;
+		  margin-right:auto;
+          background-image:url(img/battlefield1.png);
+          background-size:cover;
+          border-radius:5px;
+          overflow:hidden;}		  
+.overlap {  width:462px;
+            height:320px;
+            background:rgba(0,0,0,.75);
+            text-align:center;
+            padding:100px 0 66px 0;
+            opacity:0;
+            transition: opacity .25s ease;}
+.newsimg:hover .overlap{opacity:1}
+.cod:hover .overlap{opacity:1}
+.zelda:hover .overlap{opacity:1}
+.Enter a{font-family:Impact, Charcoal, sans-serif;
+        font-weight:200px;
+		color:white;
+		font-size:96px;}
+.news {width:80%;
+        margin-left:auto;
+		margin-right:auto;
+		border-bottom:2px solid black;
+		padding-top:20px}
+.news textarea {width:100%}
+.center2{width:462px;
+        margin-left:auto;
+		margin-right:auto;
+text-align:center;}
+.center {width:462px;
+        margin-left:auto;
+		margin-right:auto;
+	    text-align:center;
+		border-bottom:2px solid black}
+footer{background-color:black;
+       text-align:center;
+	   color:white;
+	   }
+
+				   
