@@ -77,6 +77,14 @@ nav strong{color:white;
 		border:none;
 		text-decoration:none;
 		color:white;}
+.navbar {float:left;
+padding-left:20px;
+width:30%;
+}
+.banner {
+padding-left:20px;
+float: left;
+}
 .dropdown {position:relative;
            display:inline-block}
 .dropdown-content {display:none;
