@@ -108,6 +108,7 @@ nav strong{color:white;
 main{width:70%;
      margin-left:auto;
 	 margin-right:auto}
+.center2 {text-align:center}
 .newsimg {width:462px;
           height:320px;
 		  box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
@@ -115,7 +116,29 @@ main{width:70%;
           border-right:2px solid #fff;
           margin-left:auto;
 		  margin-right:auto;
-          background-image:url(../images/here.png);
+          background-image:url(../images/mario.png);
+          background-size:cover;
+          border-radius:5px;
+          overflow:hidden;}
+.newsimg1 {width:462px;
+          height:320px;
+		  box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+		  border-bottom:2px solid #fff;
+          border-right:2px solid #fff;
+          margin-left:auto;
+		  margin-right:auto;
+          background-image:url(../images/pokemon.png);
+          background-size:cover;
+          border-radius:5px;
+          overflow:hidden;}
+.newsimg2 {width:462px;
+          height:320px;
+		  box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+		  border-bottom:2px solid #fff;
+          border-right:2px solid #fff;
+          margin-left:auto;
+		  margin-right:auto;
+          background-image:url(../images/1.jpg);
           background-size:cover;
           border-radius:5px;
           overflow:hidden;}
@@ -127,6 +150,8 @@ main{width:70%;
             opacity:0;
             transition: opacity .25s ease;}
 .newsimg:hover .overlap{opacity:1}
+.newsimg2:hover .overlap{opacity:1}
+.newsimg1:hover .overlap{opacity:1}
 .Enter a{font-family:Impact, Charcoal, sans-serif;
         font-weight:200px;
 		color:white;
