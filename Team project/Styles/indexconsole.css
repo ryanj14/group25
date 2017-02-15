@@ -110,7 +110,7 @@ main{width:70%;
           border-right:2px solid #fff;
           margin-left:auto;
 		  margin-right:auto;
-          background-image:url(images/here.png);
+          background-image:url(../images/here.png);
           background-size:cover;
           border-radius:5px;
           overflow:hidden;}
@@ -121,7 +121,7 @@ main{width:70%;
           border-right:2px solid #fff;
           margin-left:auto;
 		  margin-right:auto;
-          background-image:url(images/breathofthewild2.png);
+          background-image:url(../images/breathofthewild2.png);
           background-size:cover;
           border-radius:5px;
           overflow:hidden;}
@@ -132,7 +132,7 @@ main{width:70%;
           border-right:2px solid #fff;
           margin-left:auto;
 		  margin-right:auto;
-          background-image:url(images/codinfinitewarfare.png);
+          background-image:url(../images/codinfinitewarfare.png);
           background-size:cover;
           border-radius:5px;
           overflow:hidden;}	
@@ -143,7 +143,7 @@ main{width:70%;
           border-right:2px solid #fff;
           margin-left:auto;
 		  margin-right:auto;
-          background-image:url(images/battlefield1.png);
+          background-image:url(../images/battlefield1.png);
           background-size:cover;
           border-radius:5px;
           overflow:hidden;}		  
