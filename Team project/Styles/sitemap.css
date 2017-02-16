@@ -55,6 +55,7 @@ header img{width:65px;
 header ul{text-align:right;
           list-style-type:none;}
 nav{background-color:black;
+text-align: center;
     clear:left}
 .dropbtn {color:white;
           padding:10px 30px 10px 30px;
