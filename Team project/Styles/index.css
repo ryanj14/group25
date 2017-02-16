@@ -189,9 +189,15 @@ main{width:70%;
 		margin-right:auto;
 	    text-align:center;
 		border-bottom:2px solid black}	
+
 footer{background-color:black;
        text-align:center;
 	   color:white;
+	   height:30px
 	   }
-
+footer img {padding-left:5px;
+            padding-right:5px;
+            width:30px;
+			height:30px;
+			float:right}
 				   
