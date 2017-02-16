@@ -54,6 +54,7 @@ header img{width:65px;
 header ul{text-align:right;
           list-style-type:none;}
 nav{background-color:black;
+text-align: center;
     clear:left}
 .dropbtn {color:white;
           padding:10px 30px 10px 30px;
@@ -154,7 +155,20 @@ main{width:70%;
           background-image:url(../images/battlefield1.png);
           background-size:cover;
           border-radius:5px;
-          overflow:hidden;}		  
+          overflow:hidden;}	
+table {
+	    margin-left:auto;
+		margin-right:auto;
+border-collapse:collapse;}
+table th {
+	background-color: #D3D3D3;
+	border: 1px solid #000000;
+	text-align:left;
+}	
+table td {
+border: 1px solid #000000;
+padding: 4px 8px;
+}	
 .overlap {  width:462px;
             height:320px;
             background:rgba(0,0,0,.75);
