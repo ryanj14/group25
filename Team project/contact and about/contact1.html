@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>home</title>
+<meta charset="utf-8">
+<Link rel="stylesheet" href="contact2.css">
+</head>
+
+
+<body>
+<div id = "above">
+   <header>
+<a href="#"><img src="images/game.png" alt="logo"></a>
+<ul>
+   <li><button class="button" onclick="document.getElementById('id01').style.display='block'">SIGN IN</button>&nbsp;<button class="button" 
+   onclick="document.getElementById('id02').style.display='block'">SIGN UP</button></li>
+</ul>
+  <div id="id01" class="modal">
+     <form class="modal-content">
+        <div class="container">
+     <label><b>User Name</b></label>
+     <input type="text" placeholder="ENTER YOUR USERID" name="unname">
+     <label><b>Password</b></label>
+     <input type="password" placeholder="ENTER YOUR PASSWORD" name="pw">
+     <button class="loginbutton2" type="submit">Login</button>
+     <button class="cancelbutton" type="button" onclick="document.getElementById('id01').style.display='none'">CANCEL</button>
+        </div>
+      </form>
+  </div>
+<div id="id02" class="modal">
+<form class="modal-content">
+   <div class="container">
+<label><b>User Name</b></label>
+<input type="text" placeholder="ENTER YOUR USERID" name="newname">
+<label><b>Password</b></label>
+<input type="password" placeholder="ENTER YOUR PASSWORD" name="newpassword">
+<button class="loginbutton2" type="submit">REGISTER</button>
+<button class="cancelbutton" type="button" onclick="document.getElementById('id02').style.display='none'">CANCEL</button>
+   </div>
+</form>
+</div>
+   </header>
+ 
+   
+<nav>
+  <strong>X-GLOBAL</strong>
+  <a href="#"><button class="button1">HOME</button></a>
+<div class="dropdown">
+  <button class="dropbtn">CATEGORY</button>
+   <div class="dropdown-content">
+    <ul>
+      <li><a href="#">PC GAME</a>
+        <li><a href="#">Mobile Game</a>
+          <li><a href="#">Console Game</a>
+    </ul>
+   </div>
+</div>
+  <a href="#"><button class="button1">CONTACT</button></a>
+  <a href="#"><button class="button1">SITE MAP</button></a>
+</nav>
+</div>
+
+<div id="all">
+<main>
+   <form action = “#”>
+   <fieldset>
+    <legend id = "contact_123"><strong>Contact us rightnow !</strong></legend>
+    <label for = "userNAME">Your name here</label>
+    <input type="text" name="username" id = "userNAME" >
+    <br>
+    <label for = "userEMAIL">Your contact email</label><br>
+    <input type="text" name="useremail" id = "userEMAIL" >
+    <br>
+	<label for = "OPINION">Your opinions</label><br>
+    <textarea rows="4" cols="120" name="opinion" id = "OPINION" >Enter your opinions or comments here!</textarea><p>	
+	<a href="#" class="button3"><span>✓</span>Send</a>
+  </fieldset>
+  
+    <fieldset>
+   <legend id = "contact_legend">Your can also contact directly with our professional developers</legend>
+ 
+     <div id="left">
+	<h2>Ken</h2>
+	<p>Email : ken@gmail.com<br>
+	   Fax:666-666-6666<br>
+	   Phone: 666-666-6666</p>	 
+	   <br><br><br>
+	  <h2>Ryan</h2>
+	<p>Email : Ryan@gmail.com<br>
+	   Fax:111-111-1111<br>
+	   Phone: 111-111-1111</p>	
+       <br><br><br>	   
+      <h2>Wei</h2>
+	<p>Email : wei@gmail.com<br>
+	   Fax:777-777-7777<br>
+	   Phone: 777-777-7777</p>
+       </div>
+	   
+	<div id = "right">
+	  <h2>Address</h2>
+	  <p>222-1111 Younameit Street,
+	  Vancouver, BC, Canada. 
+	  V5H 1A1</p>
+	  
+	  <h2>Operation time</h2>
+	  <p>Monday - Friday<br>
+	     9:00AM - 5:00PM<br><br><br>
+		 Saturday - Sunday<br>
+		 Close</p>
+	  
+	  <h2>Map</h2>
+      <div id="googlemap">
+	  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2604.325692879947!2d-123.00162634893135!3d49.25127244211392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x94e4e2cbc244c725!2sTown+Square+Caf%C3%A9!5e0!3m2!1sen!2sus!4v1487147344072"
+	  width="400" height="380" frameborder="0" style="border:5px solid black" allowfullscreen></iframe>
+	  </div>
+    </div>	  
+	  	</fieldset>
+		
+	<div id = "down">
+	<fieldset>
+	<legend><strong>About us</strong></legend>
+	<h3>About our team </h3>
+	<img id="teampic" src="images/geek.jpg" alt="team">
+	<p>The supporter sacks the uneasy photograph. When can the lemon dodge under the notable approval?
+	The companion bobs? A funded elitist waves over the operator. Any ghost fasts!<br>
+	The mystic fish turns over its vacuum. Does the pronounced floppy understand an ambiguous age? 
+	The blast fears? Under the cult decays the tongue.</p>
+	<h4>We hope you can help us together to make our website better!</h4>
+	</fieldset>
+	</div>
+</form>
+   
+</main>
+</div>
+<footer>
+<p>COPYRIGHT&copy; X-GLOBAL LTD DESIGNED BY RYAN|WEI|KEN</p>
+</footer>
+
+</body>
+</html>
