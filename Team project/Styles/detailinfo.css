@@ -50,8 +50,8 @@ header ul{text-align:right;
 				border: 1px solid #888;
 				width:50%;}		
 nav{background-color:black;
+text-align: center;
     clear:left}
-
 .dropbtn {color:white;
           padding:10px 30px 10px 30px;
           background-color:black;
