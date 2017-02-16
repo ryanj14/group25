@@ -22,66 +22,7 @@ header ul{text-align:right;
 		cursor:pointer;
 		border-radius:12px}
 
-.button3 {
-  display: inline-block;
-  height: 50px;
-  width:100px;
-  line-height: 50px;
-  padding-right: 30px;
-  padding-left: 70px;
-  position: relative;
-  background-color:rgb(41,127,184);
-  color:rgb(255,255,255);
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-left:10%;
-  
-  
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  text-shadow:0px 1px 0px rgba(0,0,0,0.5);
--ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#ff123852,Positive=true)";zoom:1;
-filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#ff123852,Positive=true);
 
-  -moz-box-shadow:0px 2px 2px rgba(0,0,0,0.2);
-  -webkit-box-shadow:0px 2px 2px rgba(0,0,0,0.2);
-  box-shadow:0px 2px 2px rgba(0,0,0,0.2);
-  -ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=2,Color=#33000000,Positive=true)";
-filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=2,Color=#33000000,Positive=true);
-}
-
-.button3 span {
-  position: absolute;
-  left: 0px;
-  width: 35px;
-  background-color:rgba(0,0,0,0.5);
-  
-  -webkit-border-top-left-radius: 5px;
--webkit-border-bottom-left-radius: 5px;
--moz-border-radius-topleft: 5px;
--moz-border-radius-bottomleft: 5px;
-border-top-left-radius: 5px;
-border-bottom-left-radius: 5px;
-border-right: 1px solid  rgba(0,0,0,0.15);
-}
-
-.button3:hover span, .button.active span {
-  background-color:rgb(0,102,26);
-  border-right: 1px solid  rgba(0,0,0,0.3);
-}
-
-.button3:active {
-  margin-top: 2px;
-  margin-bottom: 13px;
-
-  -moz-box-shadow:0px 1px 0px rgba(255,255,255,0.5);
--webkit-box-shadow:0px 1px 0px rgba(255,255,255,0.5);
-box-shadow:0px 1px 0px rgba(255,255,255,0.5);
--ms-filter:"progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#ccffffff,Positive=true)";
-filter:progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#ccffffff,Positive=true);
-}
 
 .modal {display:none;
         position:fixed;
@@ -189,9 +130,9 @@ main{width:70%;
 	 margin-right:auto
      }
 
-#all {background-image: url("images/back.jpg");
+#all {background-image: url("../images/back.jpg");
       background-repeat: no-repeat;
-     background-size: 100% 160%;
+     background-size: 100% 100%;
 	 }
 
 fieldset { border: 3px solid black;
@@ -208,7 +149,7 @@ legend { border : 2px solid black;
 #userEMAIL { height:5%;
             width:90%;}
 	 
-#contact_123 { font-weight:none;
+#contact_123 { 
                font-size: 15px;}
 
 #contact_legend { font-weight: bold;
