@@ -165,6 +165,12 @@ legend { border : 2px solid black;
 	padding-left:150px;
        padding-right:150px;
       }
+
+#map {
+        height: 350px;
+        width: 350px;
+         border:2px solid black;
+		 border-radius: 10px;}
 			
 footer{
 	   background-color:black;
