@@ -122,14 +122,14 @@ main{width:70%;
           background-size:cover;
           border-radius:5px;
           overflow:hidden;}
-.zelda {width:462px;
+.zelda {width:462px;/* copy this for your article */
           height:320px;
 		  box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
 		  border-bottom:2px solid #fff;
           border-right:2px solid #fff;
           margin-left:auto;
 		  margin-right:auto;
-          background-image:url(../images/breathofthewild2.png);
+          background-image:url(../images/breathofthewild2.png); /* your picture ulr goes here */
           background-size:cover;
           border-radius:5px;
           overflow:hidden;}
@@ -162,7 +162,7 @@ main{width:70%;
             padding:100px 0 66px 0;
             opacity:0;
             transition: opacity .25s ease;}
-.newsimg:hover .overlap{opacity:1}
+.newsimg:hover .overlap{opacity:1}/* add you class here with overlap*/
 .battlefield:hover .overlap{opacity:1}
 .cod:hover .overlap{opacity:1}
 .zelda:hover .overlap{opacity:1}
