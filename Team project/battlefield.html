@@ -9,16 +9,29 @@
 <header>
 <a href="index.html"><img src="images/game.png" alt="logo"></a>
 <ul>
-<li><button class="userbutton" type="button" onclick="document.getElementById('id03').style.display='block'">USER NAME</button></li>
+<li><button class="button" onclick="document.getElementById('id01').style.display='block'">SIGN IN</button>&nbsp;<button class="button" onclick="document.getElementById('id02').style.display='block'">SIGN UP</button></li>
 </ul>
-<div id="id03" class="modal">
-<form class="modal-content">
+<div id="id01" class="modal">
+<form action="http://webdevfoundations.net/scripts/formdemo.asp" class="modal-content">
 <div class="container">
-<p class="center">USER INFORMATION</p>
-<p>USER ID:&nbsp;xxxxxx</p>
-<p>REGISTER DATE:&nbsp;XX/XX/XX</p>
-<button class="logout" type="submit">LOG OUT</button>
-<button class="cancelbutton" type="button" onclick="document.getElementById('id03').style.display='none'">CANCEL</button>
+<label><b>User Name</b></label>
+<input type="text" placeholder="ENTER YOUR USERID" name="unname">
+<label><b>Password</b></label>
+<input type="password" placeholder="ENTER YOUR PASSWORD" name="pw">
+<button class="loginbutton2" type="submit">Login</button>
+<button class="cancelbutton" type="button" onclick="document.getElementById('id01').style.display='none'">CANCEL</button>
+</div>
+</form>
+</div>
+<div id="id02" class="modal">
+<form action="http://webdevfoundations.net/scripts/formdemo.asp" class="modal-content">
+<div class="container">
+<label><b>User Name</b></label>
+<input type="text" placeholder="ENTER YOUR USERID" name="newname">
+<label><b>Password</b></label>
+<input type="password" placeholder="ENTER YOUR PASSWORD" name="newpassword">
+<button class="loginbutton2" type="submit">REGISTER</button>
+<button class="cancelbutton" type="button" onclick="document.getElementById('id02').style.display='none'">CANCEL</button>
 </div>
 </form>
 </div>
