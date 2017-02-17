@@ -6,7 +6,14 @@ header img{width:65px;
 			padding:20px 0px 30px 20px;
 			float:left}
 header ul{text-align:right;
-          list-style-type:none;}		  
+          list-style-type:none;}	
+.loginbutton2 {background-color:#4CAF50;
+          color:white;
+		  padding:14px 20px;
+		  margin: 8px 0;
+		  border: none;
+		  cursor: pointer;
+          width:100%}		  
 .userbutton{background-color:white;
         border:2px solid black;
 		color:black;
