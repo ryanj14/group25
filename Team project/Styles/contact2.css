@@ -73,7 +73,8 @@ textarea {background-color:#CCC;
 .container{padding:16px}				
 
 nav{background-color:black;
-    clear:left}
+    clear:left;
+    text-align:center;}
 
 nav a {text-decoration:none;
        color:white;
