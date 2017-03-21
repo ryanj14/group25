@@ -1,11 +1,32 @@
-body {
-	margin:0;
-	padding:0;
-	font-family:Impact, Charcoal, sans-serif;
+body {background-image: url("../images/back.jpg");
+	background-repeat: no-repeat;
+	background-size: 101% 100%;
+	 margin:0px;
+	 padding:0px;
+	 font-family:Impact, Charcoal, sans-serif;
 }
+
 header {
 	background-color:white;
 }
+
+header ul {
+	text-align:right;
+	list-style-type:none;
+}
+
+.button {
+	background-color:white;
+	border:2px solid black;
+	color:black;
+	padding:15px 32px;
+	text-align:center;
+	text-decoration:none;
+	font-size:16px;
+	cursor:pointer;
+	border-radius:12px;
+}
+
 input {
 	width:90%;
 	height:30px;
@@ -54,31 +75,19 @@ input {
 	border: 1px solid #888;
 	width:50%;
 }				
-.button {
-	background-color:white;
-	border:2px solid black;
-	color:black;
-	padding:15px 32px;
-	text-align:center;
-	text-decoration:none;
-	font-size:16px;
-	cursor:pointer;
-	border-radius:12px;
-}
-header img {
-	width:65px;
-	height:74px;
-	padding:20px 0px 30px 20px;
-	float:left;
-}
-header ul {
-	text-align:right;
-	list-style-type:none;
-}
-nav {
+
+
+
+nav {top:0px;
+	position:fixed;
 	background-color:black;
+	width:100%;
 	text-align: center;
-	clear:left;
+	
+}
+#nav_sign{
+	float:right;
+	
 }
 .dropbtn {
 	color:white;
@@ -88,6 +97,33 @@ nav {
 	border:none;
 	cursor:pointer;
 	font-size:16px;
+	transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+.dropbtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.dropbtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.dropbtn:hover span {
+  padding-right: 25px;
+}
+
+.dropbtn:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 nav a {
 	text-decoration:none;
@@ -107,8 +143,36 @@ nav strong {
 	font-size:16px;
 	background-color:black;
 	border:none;
+	
 	text-decoration:none;
 	color:white;
+	transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  margin:0.3em;
+}
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 .banner {
 	padding-left:20px;
@@ -153,12 +217,13 @@ padding-left:0px;
 	color:white;
 	text-shadow:3px 3px 3px white;
 }
-main {
-	width:70%;
+main {color:white;
+	margin-top:5%;
+	width:48%;
 	margin-left:auto;
 	margin-right:auto;
-	height:auto;
-}
+	}
+#force {margin-top:21%}
 #banner1 {
 	float:right;
 }
@@ -173,12 +238,13 @@ footer {
 }
 #navbar a {
 	text-decoration:none;
-	color:black;
+	color:white;
 }
 #navbar a:hover {
-	text-shadow:0px 0px 10px black;
+	text-shadow:0px 0px 10px white;
 }		  
 footer img {
+	
 	padding-left:5px;
 	padding-right:5px;
 	width:30px;
