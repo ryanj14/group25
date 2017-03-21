@@ -4,6 +4,16 @@
 		<title>Home</title>
 		<meta charset="utf-8">
 		<Link rel="stylesheet" href="Styles/base.css">
+		<script>
+		// Test the validation of the name.
+         function	testUserIdValid(id){
+         var str = $(id).value;
+         return (str.length >=1);}
+         
+         function	warnUserIdInvalid(id){
+         if(!testUserIdValid(id))
+         alert("Please enter your user name");}
+		</script>
 	</head>
 	<body>
 		<header>
@@ -23,7 +33,7 @@
 					<form action="http://webdevfoundations.net/scripts/formdemo.asp" class="modal-content">
 						<div class="container">
 							<label><b>User Name</b></label>
-							<input type="text" placeholder="ENTER YOUR USERID" name="newname" id="textUserup">
+							<input type="text" placeholder="ENTER YOUR USERID" name="newname" id="textUserup" onchange="warnUserIdInvalid('txtFirstName')">
 							<label><b>Password</b></label>
 							<input type="password" placeholder="ENTER YOUR PASSWORD" name="newpassword">
 							<button class="loginbutton2" type="submit">REGISTER</button>
@@ -33,27 +43,25 @@
 				</div>
 		</header>
 		<nav>
-       				<strong>X-GLOBAL</strong>
-				<a href="index.html" class="button1"><span>HOME</span></a>
-				<div class="dropdown">
-					<button class="dropbtn"><span>CATEGORY</span></button>
-					<div class="dropdown-content">
-						<ul>
-							<li><a href="pcindex.html">PC GAME</a>
-							<li><a href="mobile.html">Mobile Game</a>
-							<li><a href="console.html">Console Game</a>
-						</ul>
-					</div>
+       		<strong>X-GLOBAL</strong>
+			<a href="index.html" class="button1"><span>HOME</span></a>
+			<div class="dropdown">
+				<button class="dropbtn"><span>CATEGORY</span></button>
+				<div class="dropdown-content">
+					<ul>
+						<li><a href="pcindex.html">PC GAME</a>
+						<li><a href="mobile.html">Mobile Game</a>
+						<li><a href="console.html">Console Game</a>
+					</ul>
 				</div>
-				<a href="contact1.html" class="button1"><span>CONTACT</span></a>
-				<a href="sitemap.html" class="button1"><span>SITE MAP</span></a>
-				<a class="button1" href="table.html"><span>RELEASE DATE</span></a>
-				<div id="nav_sign">
-				
-			<button class="button" onclick="document.getElementById('id01').style.display='block'">SIGN IN</button>&nbsp;<button class="button" 
-			onclick="document.getElementById('id02').style.display='block'">SIGN UP</button>
-				
-				</div>
+			</div>
+			<a href="contact1.html" class="button1"><span>CONTACT</span></a>
+			<a href="sitemap.html" class="button1"><span>SITE MAP</span></a>
+			<a class="button1" href="table.html"><span>RELEASE DATE</span></a>
+			<div id="nav_sign">
+				<button class="button" onclick="document.getElementById('id01').style.display='block'">SIGN IN</button>&nbsp;<button class="button" 
+				onclick="document.getElementById('id02').style.display='block'">SIGN UP</button>
+			</div>
 		</nav>
 		<main>
 			<div class="news">
