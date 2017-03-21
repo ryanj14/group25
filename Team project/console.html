@@ -3,14 +3,11 @@
 	<head>
 		<title>Console</title>
 		<meta charset="utf-8">
-		<Link rel="stylesheet" href="Styles/indexconsole.css">
+		<Link rel="stylesheet" href="Styles/console.css">
 	</head>
 	<body>
 		<header>
-			<a href="index.html"><img src="images/game.png" alt="logo"></a>
-			<ul>
-				<li><button class="button" onclick="document.getElementById('id01').style.display='block'">SIGN IN</button>&nbsp;<button class="button" onclick="document.getElementById('id02').style.display='block'">SIGN UP</button></li>
-			</ul>
+			
 			<div id="id01" class="modal">
 				<form action="http://webdevfoundations.net/scripts/formdemo.asp" class="modal-content">
 					<div class="container">
@@ -37,22 +34,29 @@
 			</div>
 		</header>
 		<nav>
-			<strong>X-GLOBAL</strong>
-			<a class="button1" href="index.html">HOME</a>
-			<div class="dropdown">
-				<button class="dropbtn">CATEGORY</button>
-				<div class="dropdown-content">
-					<ul>
-						<li><a href="pcindex.html">PC GAME</a>
-						<li><a href="mobile.html">Mobile Game</a>
-						<li><a href="console.html">Console Game</a>
-					</ul>
+			   
+				<strong>X-GLOBAL</strong>
+				<a href="index.html" class="button1"><span>HOME</span></a>
+				<div class="dropdown">
+					<button class="dropbtn"><span>CATEGORY</span></button>
+					<div class="dropdown-content">
+						<ul>
+							<li><a href="pcindex.html">PC GAME</a>
+							<li><a href="mobile.html">Mobile Game</a>
+							<li><a href="console.html">Console Game</a>
+						</ul>
+					</div>
 				</div>
-			</div>
-			<a class="button1" href="contact1.html">CONTACT</a>
-			<a class="button1" href="sitemap.html">SITE MAP</a>
-			<a class="button1" href="table.html">RELEASE DATE</a>
-		</nav>
+				<a href="contact1.html" class="button1"><span>CONTACT</span></a>
+				<a href="sitemap.html" class="button1"><span>SITE MAP</span></a>
+				<a class="button1" href="table.html"><span>RELEASE DATE</span></a>
+				<div id="nav_sign">
+				
+			<button class="button" onclick="document.getElementById('id01').style.display='block'">SIGN IN</button>&nbsp;<button class="button" 
+			onclick="document.getElementById('id02').style.display='block'">SIGN UP</button>
+				
+				</div>
+			</nav>
 		<main>
 			<div class="news">
 				<div class="battlefield">
