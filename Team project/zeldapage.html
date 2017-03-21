@@ -3,34 +3,57 @@
 	<head>
 		<title>Zelda: Breath of the Wild Season Pass</title>
 		<meta charset="utf-8">
+		<script src="Styles/error.js"></script>
 		<Link rel="stylesheet" href="Styles/detailinfo.css">
 	</head>
 	<body>
-		<header>
-		<div id="id01" class="modal">
-			<form action="http://webdevfoundations.net/scripts/formdemo.asp" class="modal-content">
-				<div class="container">
-					<label><b>User Name</b></label>
-					<input type="text" placeholder="ENTER YOUR USERID" name="unname">
-					<label><b>Password</b></label>
-					<input type="password" placeholder="ENTER YOUR PASSWORD" name="pw">
-					<button class="loginbutton2" type="submit">Login</button>
-					<button class="cancelbutton" type="button" onclick="document.getElementById('id01').style.display='none'">CANCEL</button>
+<header>
+          <div id="id01" class="modal">
+					<form action="http://webdevfoundations.net/scripts/formdemo.asp" class="modal-content">
+						<div class="container">
+							<label><b>User Name</b></label>
+							<input type="text" placeholder="ENTER YOUR USERID" name="unname" class="inputColor" id="textUser">
+							<label><b>Password</b></label>
+							<input type="password" placeholder="ENTER YOUR PASSWORD" name="pw" class="inputColor">
+							<button class="loginbutton2" type="submit">Login</button>
+							<button class="cancelbutton" type="button" onclick="document.getElementById('id01').style.display='none'">CANCEL</button>
+						</div>
+					</form>
 				</div>
-			</form>
-		</div>
-		<div id="id02" class="modal">
-			<form action="http://webdevfoundations.net/scripts/formdemo.asp" class="modal-content">
-				<div class="container">
-					<label><b>User Name</b></label>
-					<input type="text" placeholder="ENTER YOUR USERID" name="newname">
-					<label><b>Password</b></label>
-					<input type="password" placeholder="ENTER YOUR PASSWORD" name="newpassword">
-					<button class="loginbutton2" type="submit">REGISTER</button>
-					<button class="cancelbutton" type="button" onclick="document.getElementById('id02').style.display='none'">CANCEL</button>
+				<div id="id02" class="modal">
+					<form action="http://webdevfoundations.net/scripts/formdemo.asp" class="modal-content" name="form">
+						<div class="container">
+							<label><b>User Name</b></label>
+							<input onchange="InvalidName()" type="text" placeholder="ENTER YOUR USERID" name="newname" id="textUserup">
+							<label><b>Password</b></label>
+							<input onchange="InvalidPw()" type="password" placeholder="ENTER YOUR PASSWORD" name="newpassword" id="passw">
+							<div id="gender">
+							<b>Gender<b>
+							<input type="radio" name="gender" value="male" id="male" checked="checked"><label for="male">Male</label>
+							<input type="radio" name="gender" value="female" id="female"><label for="female">Female</label>
+							<input type="radio" name="gender" value="other" id="other"><label for="other">Other</label>
+							</div>
+							<button class="loginbutton2" type="submit" >REGISTER</button>
+							<button class="cancelbutton" type="button" onclick="document.getElementById('id02').style.display='none'">CANCEL</button>
+						</div>
+					</form>
 				</div>
-			</form>
-		</div>
+				<div id="error1" class="modal">
+					<form action="" method="post" class="modal-content">
+						<div >
+							<h2 class="centering">Invalid User name!</h2>
+							<button class="cancelbutton" type="button" onclick="back('error1')">OK!</button>
+						</div>
+					</form>
+				</div>
+<div id="error2" class="modal">
+					<form action="" method="post" class="modal-content">
+						<div >
+							<h2 class="centering">Invalid PassWord!</h2>
+							<button class="cancelbutton" type="button" onclick="back('error2')">OK!</button>
+						</div>
+					</form>
+				</div>
 		</header>
 		<nav>
 			   

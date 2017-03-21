@@ -76,7 +76,9 @@ input {
 	width:50%;
 }				
 
-
+#gender input{width:10px;
+             height:10px}
+.centering {text-align:center}
 
 nav {top:0px;
 	position:fixed;
