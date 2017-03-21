@@ -1,9 +1,9 @@
-body {color:white;
+body {
 	background-image: url("../images/back.jpg");
 	background-repeat: no-repeat;
 	background-size: 101% 100%;
 	margin-left:auto;
-	margin-right:auto
+	margin-right:auto;
 	 margin:0;
 	 padding:0
 }
@@ -215,11 +215,16 @@ nav strong {
 	color:white;
 	text-shadow:3px 3px 3px white;
 }
-main {margin-top:4%;
+.centering {text-align:center}
+main {color:white;
+	margin-top:4%;
 	width:50%;
 	margin-left:auto;
 	margin-right:auto;
 }
+
+#gender input{width:10px;
+             height:10px}
 .newsimg {
 	width:462px;
 	height:320px;
