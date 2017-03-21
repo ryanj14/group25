@@ -13,6 +13,25 @@
          function	warnUserIdInvalid(id){
          if(!testUserIdValid(id))
          alert("Please enter your user name");}
+		 
+		 $(document).ready(function () {
+		 
+		  $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    });
+		 $('.scrollup').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+
+		 });
+		 
 		</script>
 	</head>
 	<body>
@@ -114,6 +133,7 @@
 				<p>Te dicit mucius vim, vel esse etiam facilisis cu. No verear accumsan mel. Eam ne docendi ocurreret. 
 				Qualisque concludaturque te mei. Ius novum epicuri necessitatibus at.</p>
 			</div>
+			
 		</main>
 		<footer>
 			<p>COPYRIGHT&copy; X-GLOBAL LTD DESIGNED BY RYAN|WEI|KEN<a href="https://www.facebook.com">
@@ -125,5 +145,6 @@
 				</a>
 			</p>
 		</footer>
+		<a href="#" class="scrollup">Scroll</a>
 	</body>
 </html>																								
