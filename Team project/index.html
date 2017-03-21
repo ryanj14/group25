@@ -5,7 +5,28 @@
 		<meta charset="utf-8">
 		<script src="Styles/error.js"></script>
 		<Link rel="stylesheet" href="Styles/base.css">
-		
+		<script src="Styles/error.js"></script>
+		<script>
+		 
+		 $(document).ready(function () {
+		 
+		  $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    });
+		 $('.scrollup').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+
+		 });
+		 
+		</script>
 	</head>
 	<body>
 		<header>
@@ -57,27 +78,25 @@
 				</div>
 		</header>
 		<nav>
-       				<strong>X-GLOBAL</strong>
-				<a href="index.html" class="button1"><span>HOME</span></a>
-				<div class="dropdown">
-					<button class="dropbtn"><span>CATEGORY</span></button>
-					<div class="dropdown-content">
-						<ul>
-							<li><a href="pcindex.html">PC GAME</a>
-							<li><a href="mobile.html">Mobile Game</a>
-							<li><a href="console.html">Console Game</a>
-						</ul>
-					</div>
+       		<strong>X-GLOBAL</strong>
+			<a href="index.html" class="button1"><span>HOME</span></a>
+			<div class="dropdown">
+				<button class="dropbtn"><span>CATEGORY</span></button>
+				<div class="dropdown-content">
+					<ul>
+						<li><a href="pcindex.html">PC GAME</a>
+						<li><a href="mobile.html">Mobile Game</a>
+						<li><a href="console.html">Console Game</a>
+					</ul>
 				</div>
-				<a href="contact1.html" class="button1"><span>CONTACT</span></a>
-				<a href="sitemap.html" class="button1"><span>SITE MAP</span></a>
-				<a class="button1" href="table.html"><span>RELEASE DATE</span></a>
-				<div id="nav_sign">
-				
-			<button class="button" onclick="document.getElementById('id01').style.display='block'">SIGN IN</button>&nbsp;<button class="button" 
-			onclick="document.getElementById('id02').style.display='block'">SIGN UP</button>
-				
-				</div>
+			</div>
+			<a href="contact1.html" class="button1"><span>CONTACT</span></a>
+			<a href="sitemap.html" class="button1"><span>SITE MAP</span></a>
+			<a class="button1" href="table.html"><span>RELEASE DATE</span></a>
+			<div id="nav_sign">
+				<button class="button" onclick="document.getElementById('id01').style.display='block'">SIGN IN</button>&nbsp;<button class="button" 
+				onclick="document.getElementById('id02').style.display='block'">SIGN UP</button>
+			</div>
 		</nav>
 		<main>
 			<div class="news">
@@ -130,9 +149,12 @@
 				<p>Te dicit mucius vim, vel esse etiam facilisis cu. No verear accumsan mel. Eam ne docendi ocurreret. 
 				Qualisque concludaturque te mei. Ius novum epicuri necessitatibus at.</p>
 			</div>
+			
 		</main>
 		<footer>
-			<p>COPYRIGHT&copy; X-GLOBAL LTD DESIGNED BY RYAN|WEI|KEN<a href="https://www.facebook.com">
+			<p><a href="#" class="scrollup">Scroll</a>
+			COPYRIGHT&copy; X-GLOBAL LTD DESIGNED BY RYAN|WEI|KEN
+			<a href="https://www.facebook.com">
 				<img src="images/fb.png" alt="fb">
 				</a><a href="https://www.instagram.com/?hl=en">
 				<img src="images/ig.png" alt="ig">
@@ -140,6 +162,8 @@
 				<img src="images/twitter.png" alt="twitter">
 				</a>
 			</p>
+					
 		</footer>
+
 	</body>
 </html>																								

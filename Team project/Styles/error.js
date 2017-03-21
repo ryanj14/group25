@@ -19,7 +19,7 @@ function InvalidName(){
 function InvalidPw(){
 if(!testName("passw"))
 $("error2").style.display="block";
-clearField('textUserup');}
+clearField('passw');}
 
 function back(id){
 $(id).style.display = "none";}
