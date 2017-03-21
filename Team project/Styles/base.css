@@ -1,4 +1,9 @@
-body {
+body {color:white;
+	background-image: url("../images/back.jpg");
+	background-repeat: no-repeat;
+	background-size: 101% 100%;
+	margin-left:auto;
+	margin-right:auto
 	 margin:0;
 	 padding:0
 }
@@ -52,17 +57,24 @@ input {
 	border-radius:12px;
 	border: 1px solid #888;
 	width:50%;
-}				
+}	
+#nav_sign{
+	text-align:right;
+	float:right;	
+}			
 .button {
+	padding:10px 30px 10px 30px;
+	font-size:16px;
 	background-color:white;
 	border:2px solid black;
-	color:black;
-	padding:15px 32px;
-	text-align:center;
 	text-decoration:none;
-	font-size:16px;
 	cursor:pointer;
-	border-radius:12px
+	border-radius:12px;
+	margin:0.5em;
+	transition: all 0.3s ease 0.3s;
+}
+.button:hover {
+  box-shadow: inset 0 0 0 5px #3071A9; 
 }
 header img {
 	width:65px;
@@ -74,10 +86,12 @@ header ul {
 	text-align:right;
 	list-style-type:none;
 }
-nav {
+nav {top:0;
+	width:100%;
+	position:fixed;
 	background-color:black;
 	text-align:center;
-	clear:left
+	z-index:1;
 }
 .dropbtn {
 	color:white;
@@ -87,6 +101,33 @@ nav {
 	border:none;
 	cursor:pointer;
 	font-size:16px;
+	transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+.dropbtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.dropbtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.dropbtn:hover span {
+  padding-right: 25px;
+}
+
+.dropbtn:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 nav a {
 	text-decoration:none;
@@ -106,8 +147,36 @@ nav strong {
 	font-size:16px;
 	background-color:black;
 	border:none;
+	
 	text-decoration:none;
 	color:white;
+	transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  margin:0.3em;
+}
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 .dropdown {
 	position:relative;
@@ -118,7 +187,7 @@ nav strong {
 	position:absolute;
 	background-color:black;
 	color:white;
-	z-index:1
+	z-index:1;
 }
 .dropdown-content a {
 	display:block;
@@ -146,8 +215,8 @@ nav strong {
 	color:white;
 	text-shadow:3px 3px 3px white;
 }
-main {
-	width:70%;
+main {margin-top:4%;
+	width:50%;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -236,11 +305,11 @@ main {
 	color:white;
 	font-size:96px;
 }
-.news {
+.news {margin-bottom:3%;
 	width:80%;
 	margin-left:auto;
 	margin-right:auto;
-	border-bottom:2px solid black;
+	border-bottom:2px solid white;
 	padding-top:20px
 }
 .news textarea {
@@ -257,9 +326,9 @@ main {
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
-	border-bottom:2px solid black
+	border-bottom:2px solid white
 }	
-footer {
+footer {border-top:2px solid red;
 	background-color:black;
 	text-align:center;
 	color:white;
