@@ -14,11 +14,13 @@ return result;}
 function InvalidName(){
 	if(!testName("textUserup"))
 	$("error1").style.display="block";
+if(!testName("textUserup"))
     clearField('textUserup');}
 
 function InvalidPw(){
 if(!testName("passw"))
 $("error2").style.display="block";
+if(!testName("passw"))
 clearField('passw');}
 
 function back(id){

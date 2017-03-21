@@ -1,7 +1,11 @@
 body {
-	margin:0;
-	padding:0;
-	font-family:Impact, Charcoal, sans-serif;
+	background-image: url("../images/back.jpg");
+	background-repeat: no-repeat;
+	background-size: 101% 100%;
+	margin-left:auto;
+	margin-right:auto;
+	 margin:0;
+	 padding:0
 }
 header img {
 	width:65px;
@@ -34,7 +38,14 @@ header ul {
 	font-size:16px;
 	cursor:pointer;
 	border-radius:12px;
-}		 
+}	
+input {
+	width:90%;
+	height:30px;
+	padding:12px 20px;
+	border:1px solid black;
+	margin: 10px 0
+}	 
 .userbutton {
 	background-color:white;
 	border:2px solid black;
@@ -98,11 +109,17 @@ header ul {
 	border: 1px solid #888;
 	width:50%;
 }
-nav {
+nav {top:0;
+	width:100%;
+	position:fixed;
 	background-color:black;
-	text-align: center;
-	clear:left;
+	text-align:center;
+	z-index:1;
 }
+#nav_sign{
+	text-align:right;
+	float:right;	
+}			
 .dropbtn {
 	color:white;
 	padding:10px 30px 10px 30px;
@@ -111,7 +128,36 @@ nav {
 	border:none;
 	cursor:pointer;
 	font-size:16px;
+	transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
 }
+.dropbtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.dropbtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.dropbtn:hover span {
+  padding-right: 25px;
+}
+
+.dropbtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#gender input{width:10px;
+             height:10px}
 nav a {
 	text-decoration:none;
 	color:white;
@@ -130,8 +176,36 @@ nav strong {
 	font-size:16px;
 	background-color:black;
 	border:none;
+	
 	text-decoration:none;
 	color:white;
+	transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  margin:0.3em;
+}
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 .dropdown {
 	position:relative;
@@ -171,7 +245,7 @@ nav strong {
 	text-shadow:3px 3px 3px white;
 }
 main {
-	width:70%;
+	width:50.5%;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -233,6 +307,7 @@ main {
 	color:white;
 	font-size:96px;
 }
+.centering {text-align:center}
 .news {
 	width:80%;
 	margin-left:auto;
