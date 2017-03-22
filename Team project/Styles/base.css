@@ -86,16 +86,16 @@ header ul {
 	text-align:right;
 	list-style-type:none;
 }
-nav {z-index:1;
+nav {
+	z-index:1;
 	top:0;
 	position:fixed;
-width:100%;
+	width:100%;
 	background-color:black;
     clear:left;
     text-align:center;
 	border-bottom:2px solid white;
 }
-
 .dropbtn {
 	color:white;
 	padding:10px 30px 10px 30px;
@@ -105,17 +105,15 @@ width:100%;
 	cursor:pointer;
 	font-size:16px;
 	transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
+	cursor: pointer;
+	margin: 5px;
 }
-
 .dropbtn span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
-
 .dropbtn span:after {
   content: '\00bb';
   position: absolute;
@@ -124,16 +122,13 @@ width:100%;
   right: -20px;
   transition: 0.5s;
 }
-
 .dropbtn:hover span {
   padding-right: 25px;
 }
-
 .dropbtn:hover span:after {
   opacity: 1;
   right: 0;
 }
-
 nav a {
 	text-decoration:none;
 	color:white;
@@ -147,13 +142,11 @@ nav strong {
 	font-weight:bold;
 	font-size:20px
 } 
-
 #nav_sign{
 	text-align:right;
 	float:right;
 	
 }
-
 .button1 {
 	padding:10px 30px 10px 30px;
 	font-size:16px;
@@ -358,4 +351,5 @@ footer img {
 	height:30px;
 	float:right
 }
-.scrollup{float:left}
+.scrollup{float:left;
+	background: url ('../images/upbutton.png');}
