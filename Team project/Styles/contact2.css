@@ -155,7 +155,6 @@ nav strong {
   position: relative;
   transition: 0.5s;
 }
-
 .dropbtn span:after {
   content: '\00bb';
   position: absolute;
@@ -164,11 +163,9 @@ nav strong {
   right: -20px;
   transition: 0.5s;
 }
-
 .dropbtn:hover span {
   padding-right: 25px;
 }
-
 .dropbtn:hover span:after {
   opacity: 1;
   right: 0;
@@ -219,6 +216,7 @@ main {
 	background-image: url("../images/back.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+	margin-top: 58px;
 }
 fieldset { 
 	border: 3px solid black;
@@ -249,8 +247,10 @@ legend {
 	margin-top:80px;
 	float:left;
 }
-#gender input{width:10px;
-             height:10px}
+#gender input{
+	width:10px;
+    height:10px;
+}
 .centering {text-align:center}
 #teampic {
 	width:70%;
@@ -268,7 +268,7 @@ footer {
 	background-color:black;
 	text-align:center;
 	color:white;
-	height:30px
+	height:30px;
 }
 footer img {
 	padding-left:5px;
