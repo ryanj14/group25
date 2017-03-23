@@ -84,11 +84,12 @@ header ul {
 	list-style-type:none;
 }
 nav {position:fixed;
-width:100%;
+    width:100%;
 	background-color:black;
     clear:left;
     text-align:center;
 	border-bottom:2px solid white;
+	z-index:1
 	
 }
 .dropbtn {
