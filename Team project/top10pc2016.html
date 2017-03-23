@@ -3,19 +3,50 @@
    <head>
       <title>Battlefield 1 Winter Update</title>
       <meta charset="utf-8">
-      <script src="Styles/error.js"></script>
       <Link rel="stylesheet" href="Styles/detailinfo.css">
-	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
       <script>
-	  	  <!--Beggining of scroll up button-->
-         $(function(){
-         $('.scroll-to-top-link').click(function(){
-         	$("html, body").animate({ scrollTop: 0}, 1000);
-         	return false;
-         });
+         <!--Beggining of scroll up button-->
+            $(function(){
+            $('.scroll-to-top-link').click(function(){
+            	$("html, body").animate({ scrollTop: 0}, 1000);
+            	return false;
+            });
+            
+            });
+         <!--End of scroll button-->
+         function $(id){
+         var element = document.getElementById(id);
+         if(id == null){
+         alert("ERROR");
+         }return element;
+         }
          
-         });
-		 <!--End of scroll button-->
+         function testName(id){
+         var txt = /^[A-Za-z0-9]{4,10}$/i;
+         var name = $(id).value;
+         var result = txt.test(name);
+         return result;}
+         
+         function InvalidName(){
+         if(!testName("textUserup"))
+         $("error1").style.display="block";
+         if(!testName("textUserup"))
+         clearField('textUserup');}
+         
+         function InvalidPw(){
+         if(!testName("passw"))
+         $("error2").style.display="block";
+         if(!testName("passw"))
+         clearField('passw');}
+         
+         function back(id){
+         $(id).style.display = "none";}
+         
+         function clearField(input) {
+         $(input).value = "";
+         };
+         
       </script>
    </head>
    <body>
