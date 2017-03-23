@@ -1,20 +1,16 @@
-body {background-image: url("../images/back.jpg");
+body {
+	background-image: url("../images/back.jpg");
 	background-repeat: no-repeat;
 	background-size: 101% 100%;
-	 margin:0px;
-	 padding:0px;
-	 font-family:Impact, Charcoal, sans-serif;
+	margin:0px;
+	padding:0px;
+	font-family:Impact, Charcoal, sans-serif;
 }
-
-header {
-	background-color:white;
-}
-
+header {background-color:white;}
 header ul {
 	text-align:right;
 	list-style-type:none;
 }
-
 .button {
 	background-color:white;
 	border:2px solid black;
@@ -26,7 +22,6 @@ header ul {
 	cursor:pointer;
 	border-radius:12px;
 }
-
 input {
 	width:90%;
 	height:30px;
@@ -52,9 +47,7 @@ input {
 	cursor: pointer;
 	width:100%;
 }
-.container {
-	padding:16px;
-}
+.container {padding:16px;}
 .modal {
 	display:none;
 	position:fixed;
@@ -75,22 +68,19 @@ input {
 	border: 1px solid #888;
 	width:50%;
 }				
-
-#gender input{width:10px;
-             height:10px}
-.centering {text-align:center}
-
-nav {top:0px;
+#gender input {
+	width:10px;
+	height:10px;
+}
+.centering {text-align:center;}
+nav {
+	top:0px;
 	position:fixed;
 	background-color:black;
 	width:100%;
 	text-align: center;
-	
 }
-#nav_sign{
-	float:right;
-	
-}
+#nav_sign{float:right;}
 .dropbtn {
 	color:white;
 	padding:10px 30px 10px 30px;
@@ -109,7 +99,6 @@ nav {top:0px;
   position: relative;
   transition: 0.5s;
 }
-
 .dropbtn span:after {
   content: '\00bb';
   position: absolute;
@@ -118,11 +107,7 @@ nav {top:0px;
   right: -20px;
   transition: 0.5s;
 }
-
-.dropbtn:hover span {
-  padding-right: 25px;
-}
-
+.dropbtn:hover span {padding-right: 25px;}
 .dropbtn:hover span:after {
   opacity: 1;
   right: 0;
@@ -145,33 +130,28 @@ nav strong {
 	font-size:16px;
 	background-color:black;
 	border:none;
-	
 	text-decoration:none;
 	color:white;
 	transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
+	cursor: pointer;
+	margin: 5px;
 }
 .button1 span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-  margin:0.3em;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+	margin:0.3em;
 }
 .button1 span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
 }
-
-.button1:hover span {
-  padding-right: 25px;
-}
-
+.button1:hover span {padding-right: 25px;}
 .button1:hover span:after {
   opacity: 1;
   right: 0;
@@ -202,9 +182,9 @@ nav strong {
 	padding-left:0px;
 }
 .dropdown-content li {
-padding-top:5px;
-padding-bottom:5px;
-padding-left:0px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:0px;
 }			 
 .dropdown-content a:hover {
 	color:white;
@@ -219,19 +199,16 @@ padding-left:0px;
 	color:white;
 	text-shadow:3px 3px 3px white;
 }
-main {color:black;
+main {
+	color:black;
 	margin-top:5%;
 	width:48%;
 	margin-left:auto;
 	margin-right:auto;
-	}
+}
 #force {margin-top:21%}
-#banner1 {
-	float:right;
-}
-.clearright {
-	clear:right;
-}
+#banner1 {float:right;}
+.clearright {clear:right;}
 footer {
 	background-color:black;
 	text-align:center;
@@ -242,11 +219,8 @@ footer {
 	text-decoration:none;
 	color:black;
 }
-#navbar a:hover {
-	text-shadow:0px 0px 10px black;
-}		  
+#navbar a:hover {text-shadow:0px 0px 10px black;}		  
 footer img {
-	
 	padding-left:5px;
 	padding-right:5px;
 	width:30px;

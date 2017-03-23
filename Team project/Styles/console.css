@@ -5,9 +5,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
-header {
-	background-color:white;
-}
+header {background-color:white;}
 input {
 	width:90%;
 	height:30px;
@@ -33,9 +31,7 @@ input {
 	cursor: pointer;
 	width:100%;
 }
-.container {
-	padding:16px;
-}
+.container {padding:16px;}
 .modal {
 	display:none;
 	position:fixed;
@@ -67,11 +63,7 @@ input {
 	margin:0.5em;
 	transition: all 0.3s ease 0.3s;
 }
-
-.button:hover {
-  box-shadow: inset 0 0 0 5px #3071A9;
-  
-}
+.button:hover {box-shadow: inset 0 0 0 5px #3071A9;}
 header img {
 	width:65px;
 	height:74px;
@@ -90,7 +82,6 @@ nav {position:fixed;
 	top:0px;
 	border-bottom:2px solid white;
 	z-index:1;
-	
 }
 .dropbtn {
 	color:white;
@@ -101,17 +92,15 @@ nav {position:fixed;
 	cursor:pointer;
 	font-size:16px;
 	transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
+	cursor: pointer;
+	margin: 5px;
 }
-
 .dropbtn span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
-
 .dropbtn span:after {
   content: '\00bb';
   position: absolute;
@@ -120,27 +109,20 @@ nav {position:fixed;
   right: -20px;
   transition: 0.5s;
 }
-
-.dropbtn:hover span {
-  padding-right: 25px;
-}
-
+.dropbtn:hover span {padding-right: 25px;}
 .dropbtn:hover span:after {
   opacity: 1;
   right: 0;
 }
-
 nav a {
 	text-decoration:none;
 	color:white;
 	font-family:Impact, Charcoal, sans-serif;
 	display:inline-block;
 }
-
 #nav_sign{
 	text-align:right;
 	float:right;
-	
 }
 nav strong {
 	color:white;
@@ -154,41 +136,32 @@ nav strong {
 	font-size:16px;
 	background-color:black;
 	border:none;
-	
 	text-decoration:none;
 	color:white;
 	transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-	
+	cursor: pointer;
+	margin: 5px;
 }
-
 .button1 span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-  margin:0.3em;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+	margin:0.3em;
 }
-
 .button1 span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
 }
-
-.button1:hover span {
-  padding-right: 25px;
-}
-
+.button1:hover span {padding-right: 25px;}
 .button1:hover span:after {
   opacity: 1;
   right: 0;
 }
-
 .navbar {
 	float:left;
 	padding-left:20px;
@@ -345,7 +318,6 @@ table {
 	border-collapse:collapse;
 	background-color:white;
 	width:48%;
-	
 }
 table th {
 	background-color: #D3D3D3;
@@ -385,9 +357,7 @@ table td {
 	border-bottom:2px solid black;
 	padding-top:20px;
 }
-.news textarea {
-	width:100%
-}
+.news textarea {width:100%}
 .center2 {
 	width:462px;
 	margin-left:auto;
