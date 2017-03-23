@@ -417,3 +417,11 @@ footer img {
 	height:30px;
 	float:right
 }
+/*Scroll up function*/
+.scroll-to-top-link{
+	position:fixed;
+	width:50px;
+	right:10%;
+	bottom:10%;
+	cursor:pointer;
+}

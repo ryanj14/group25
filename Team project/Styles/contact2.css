@@ -279,3 +279,11 @@ footer img {
 	float:right;
 }
 #upperf textarea, input {width:95%}
+/*Scroll up function*/
+.scroll-to-top-link{
+	position:fixed;
+	width:50px;
+	right:10%;
+	bottom:10%;
+	cursor:pointer;
+}
