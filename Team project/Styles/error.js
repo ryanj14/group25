@@ -6,7 +6,7 @@ function $(id){
 	}
 	
 function testName(id){
-	var txt = /[A-Za-z0-9]/i;
+	var txt = /^[A-Za-z0-9]{4,10}$/i;
 	var name = $(id).value;
 	var result = txt.test(name);
 return result;}
