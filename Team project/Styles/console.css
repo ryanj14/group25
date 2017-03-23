@@ -403,6 +403,11 @@ table td {
 	text-align:center;
 	border-bottom:2px solid black;
 }
+#gender input{
+	width:10px;
+    height:10px;
+}
+.centering {text-align:center}
 footer{
 	background-color:black;
 	text-align:center;
