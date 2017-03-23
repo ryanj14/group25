@@ -351,5 +351,10 @@ footer img {
 	height:30px;
 	float:right
 }
-.scrollup{float:left;
-	background: url ('../images/upbutton.png');}
+.scroll-to-top-link{
+	position:fixed;
+	width:50px;
+	right:10%;
+	bottom:10%;
+	cursor:pointer;
+}

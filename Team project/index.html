@@ -6,26 +6,15 @@
 		<script src="Styles/error.js"></script>
 		<Link rel="stylesheet" href="Styles/base.css">
 		<script src="Styles/error.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script>
-		 
-		 $(document).ready(function () {
-		 
-		  $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
-            $('.scrollup').fadeIn();
-        } else {
-            $('.scrollup').fadeOut();
-			}
-    });
-		 $('.scrollup').click(function () {
-        $("html, body").animate({
-            scrollTop: 0
-        }, 600);
-        return false;
-    });
+		$(function(){
+		$('.scroll-to-top-link').click(function(){
+			$("html, body").animate({ scrollTop: 0}, 1000);
+			return false;
+		});
 
-		 });
-		 
+		});
 		</script>
 	</head>
 	<body>
@@ -149,9 +138,9 @@
 				<p>Te dicit mucius vim, vel esse etiam facilisis cu. No verear accumsan mel. Eam ne docendi ocurreret. 
 				Qualisque concludaturque te mei. Ius novum epicuri necessitatibus at.</p>
 			</div>
+			<img class="scroll-to-top-link" src="images/upbutton.png">
 		</main>
 		<footer>
-			<a href="#" class="scrollup">Scroll</a>
 			COPYRIGHT&copy; X-GLOBAL LTD DESIGNED BY RYAN|WEI|KEN
 			<a href="https://www.facebook.com">
 				<img src="images/fb.png" alt="fb">
