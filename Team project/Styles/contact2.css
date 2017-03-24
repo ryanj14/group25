@@ -3,31 +3,35 @@ body {
 	padding:0;
 }
 header {background-color:white;}
-header img {
-	width:65px;
-	height:74px;
-	padding:20px 0px 30px 20px;
-	float:left
-}
-#nav_sign{
-	text-align:right;
-	float:right;	
-}			
+
 header ul{
 	text-align:right;
 	list-style-type:none;
 }
 .button {
+	padding:10px 30px 10px 30px;
+	font-size:16px;
 	background-color:white;
 	border:2px solid black;
-	color:black;
-	padding:15px 32px;
-	text-align:center;
 	text-decoration:none;
-	font-size:16px;
 	cursor:pointer;
 	border-radius:12px;
+	margin:0.5em;
+	transition: all 0.3s ease 0.3s;
 }
+
+.button:hover {
+  box-shadow: inset 0 0 0 5px #3071A9;
+  
+}
+
+#nav_sign{
+	text-align:right;
+	float:right;
+	
+}
+
+
 .modal {
 	display:none;
 	position:fixed;
@@ -80,13 +84,19 @@ textarea {
 	border: 1px solid black;
 	border-radius:10px;
 }
-.container {padding:16px}				
-nav {top:0;
-	width:100%;
-	position:fixed;
+.container {padding:16px;
+            }	
+
+.inputColor{background-color:white;
+            border-radius:0;}
+			
+nav {position:fixed;
+     width:100%;
 	background-color:black;
-	text-align:center;
-	z-index:1;
+    clear:left;
+    text-align:center;
+	border-bottom:2px solid white;
+	
 }
 nav a {
 	text-decoration:none;
@@ -101,17 +111,21 @@ nav strong {
 	font-weight:bold;
 	font-size:20px;
 } 
+
 .button1 {
 	padding:10px 30px 10px 30px;
 	font-size:16px;
 	background-color:black;
 	border:none;
+	
 	text-decoration:none;
 	color:white;
 	transition: all 0.5s;
-	cursor: pointer;
-	margin: 5px;
+  cursor: pointer;
+  margin: 5px;
+	
 }
+
 .button1 span {
   cursor: pointer;
   display: inline-block;
@@ -119,6 +133,7 @@ nav strong {
   transition: 0.5s;
   margin:0.3em;
 }
+
 .button1 span:after {
   content: '\00bb';
   position: absolute;
@@ -127,13 +142,16 @@ nav strong {
   right: -20px;
   transition: 0.5s;
 }
+
 .button1:hover span {
   padding-right: 25px;
 }
+
 .button1:hover span:after {
   opacity: 1;
   right: 0;
 }
+
 .dropbtn {
 	color:white;
 	padding:10px 30px 10px 30px;
@@ -143,28 +161,35 @@ nav strong {
 	cursor:pointer;
 	font-size:16px;
 	transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
+  cursor: pointer;
+  margin: 5px;
 }
+
 .dropbtn span {
-	cursor: pointer;
-	display: inline-block;
-	position: relative;
-	transition: 0.5s;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
+
 .dropbtn span:after {
-	content: '\00bb';
-	position: absolute;
-	opacity: 0;
-	top: 0;
-	right: -20px;
-	transition: 0.5s;
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
 }
-.dropbtn:hover span {padding-right: 25px;}
+
+.dropbtn:hover span {
+  padding-right: 25px;
+}
+
 .dropbtn:hover span:after {
   opacity: 1;
   right: 0;
 }
+
 .dropdown {
 	position:relative;
 	display:inline-block;
@@ -202,69 +227,106 @@ nav strong {
 	color:white;
 	text-shadow:3px 3px 3px white;
 }
-main {margin-top:5%;
-	width:70%;
+main {
+	width:50.5%;
 	margin-left:auto;
 	margin-right:auto;
 }
-#all {
+#all {padding-top:5em;
 	background-image: url("../images/back.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	margin-top: 58px;
+	margin-left:auto;
+	margin-right:auto
 }
 fieldset { 
 	border: 3px solid black;
 	border-radius:10px;
 	background-color: white;
 	margin-bottom:15px;
+	
+	
+    font-family: Arial, Helvetica, sans-serif;
+
 }
+
+
 legend {
 	border : 2px solid black;
 	background-color:white;
 }
 #userNAME { 
 	height:5%;
-	width:90%;
+	width:70%;
 }
 #userEMAIL { 
 	height:5%;
-	width:90%;
+	width:70%;
 }
+
+#send{
+width:30%;	
+}
+
 #contact_123 {font-size: 15px;}
+
+
 #contact_legend { 
 	font-weight: bold;
 	font-size: 19px;
+	
 }
+
+#upperf{width:89%;
+padding-left:8%;
+padding-top:1%;
+
+         }
+
+#OPINION{
+width:80%;	
+	
+}
+
 #left { 
-	margin-left: 100px;
-	margin-right:130px;
-	margin-top:80px;
+	margin-left: 7%;
+	margin-right:6%;
+	margin-top:1.5%;
 	float:left;
+	clear:left;
+	padding-right:1%;
+	
 }
-#gender input{
-	width:10px;
-    height:10px;
-}
-.centering {text-align:center}
+
+#right{padding-left:1%;}
+
+
 #teampic {
-	width:70%;
-	height: 250px;
-	padding-left:150px;
-	padding-right:150px;
+	position:relative;
+	width:30%;
+	height: 15%;
+	padding-left:5%;
+	float:left;
+	padding-right:5%;
+	z-index:0;
 }
+
+#down fieldset{padding-left:10%;
+padding-right:10%;}
+
 #map {
-	height: 350px;
-	width: 350px;
+	height: 10em;
+	width: 10em;
 	border:2px solid black;
 	border-radius: 10px;
+	
 }			
 footer {
 	background-color:black;
 	text-align:center;
 	color:white;
-	height:30px;
-	margin-top:0;
+	height:30px
+	
 }
 footer img {
 	padding-left:5px;
@@ -272,13 +334,4 @@ footer img {
 	width:30px;
 	height:30px;
 	float:right;
-}
-#upperf textarea, input {width:95%}
-/*Scroll up function*/
-.scroll-to-top-link{
-	position:fixed;
-	width:50px;
-	right:10%;
-	bottom:10%;
-	cursor:pointer;
 }
