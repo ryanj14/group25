@@ -24,9 +24,9 @@
             <form action="http://webdevfoundations.net/scripts/formdemo.asp" method="post" class="modal-content" name="form">
                <div class="container">
                   <label><b>User Name</b></label>
-                  <input onchange="InvalidName()" type="text" placeholder="ENTER YOUR USERID" name="newname" id="textUserup">
+                  <input onblur="InvalidName()" type="text" placeholder="ENTER YOUR USERID" name="newname" id="textUserup">
                   <label><b>Password</b></label>
-                  <input onchange="InvalidPw()" type="password" placeholder="ENTER YOUR PASSWORD" name="newpassword" id="passw">
+                  <input onblur="InvalidPw()" type="password" placeholder="ENTER YOUR PASSWORD" name="newpassword" id="passw">
                   <div id="gender">
                      <b>Gender</b>
                      <input type="radio" name="gender" value="male" id="male" checked="checked"><label for="male">Male</label>

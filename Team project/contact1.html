@@ -6,6 +6,7 @@
 		<Link rel="stylesheet" href="Styles/contact2.css">
 		<script src="Styles/contact.js">
 		</script>
+		
 	</head>	
 	<body>
 		<div id = "above">
@@ -26,9 +27,15 @@
 					<form action="http://webdevfoundations.net/scripts/formdemo.asp" class="modal-content">
 						<div class="container">
 							<label><b>User Name</b></label>
-							<input type="text" placeholder="ENTER YOUR USERID" name="newname" id="textUserup">
+							<input onblur="InvalidName()" type="text" placeholder="ENTER YOUR USERID" name="newname" id="textUserup">
 							<label><b>Password</b></label>
-							<input type="password" placeholder="ENTER YOUR PASSWORD" name="newpassword">
+							<input onblur="InvalidPw()" type="password" placeholder="ENTER YOUR PASSWORD" name="newpassword">
+						<div id="gender">
+                            <b>Gender</b>
+                            <input type="radio" name="gender" value="male" id="male" checked="checked"><label for="male">Male</label>
+                            <input type="radio" name="gender" value="female" id="female"><label for="female">Female</label>
+                            <input type="radio" name="gender" value="other" id="other"><label for="other">Other</label>
+                       </div>
 							<button class="loginbutton2" type="submit">REGISTER</button>
 							<button class="cancelbutton" type="button" onclick="document.getElementById('id02').style.display='none'">CANCEL</button>
 						</div>
