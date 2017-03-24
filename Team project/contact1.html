@@ -4,129 +4,40 @@
 		<title>Contact</title>
 		<meta charset="utf-8">
 		<Link rel="stylesheet" href="Styles/contact2.css">
-		<script>
-		
-		function $(id) {
-		   var element = document.getElementById(id);
-		   if(element == null)
-		      alert('Programmer error: ' + id + ' does not exist.')
-			  return element;
-		}
-		function testUserName(id){
-			var testNamePattern = /^([a-zA-Z]{1,15})$/;
-			var nameValue = $(id).value;
-			if (testNamePattern.test(nameValue))
-				return true;
-		}
-		//Warning for selection value
-		function warnUserName(id){
-		if (!testUserName(id))
-          document.getElementById("usernamewarn").innerHTML = "Please enter a valid username";
-		else
-		   document.getElementById("usernamewarn").innerHTML = " ";
-        }
-		function testEmail(id){
-			var testEmailPattern = /(.com|.ca|.org)$/;
-			var emailValue = $(id).value;
-			if (testEmailPattern.test(emailValue))
-				return true;
-		}
-		
-		//Warning for invalid email format
-		
-		function warnEmail(id){
-			if(!testEmail(id))
-              document.getElementById("emailwarn").innerHTML = "Please enter a valid email";
-		else
-		   document.getElementById("emailwarn").innerHTML = " ";
-		}
-		function $(id){
-         var element = document.getElementById(id);
-         if(id == null){
-         alert("ERROR");
-         }return element;
-         }
-         
-         function testName(id){
-         var txt = /^[A-Za-z0-9]{4,10}$/i;
-         var name = $(id).value;
-         var result = txt.test(name);
-         return result;}
-         
-         function InvalidName(){
-         if(!testName("textUserup"))
-         $("error1").style.display="block";
-         if(!testName("textUserup"))
-         clearField('textUserup');}
-         
-         function InvalidPw(){
-         if(!testName("passw"))
-         $("error2").style.display="block";
-         if(!testName("passw"))
-         clearField('passw');}
-         
-         function back(id){
-         $(id).style.display = "none";}
-         
-         function clearField(input) {
-         $(input).value = "";
-         };
-
+		<script src="Styles/contact.js">
 		</script>
 	</head>	
 	<body>
 		<div id = "above">
-		<header>
-         <div id="id01" class="modal">
-            <form action="http://webdevfoundations.net/scripts/formdemo.asp" method="post" class="modal-content">
-               <div class="container">
-                  <label><b>User Name</b></label>
-                  <input type="text" placeholder="ENTER YOUR USERID" name="unname" class="inputColor" id="textUser">
-                  <label><b>Password</b></label>
-                  <input type="password" placeholder="ENTER YOUR PASSWORD" name="pw" class="inputColor">
-                  <button class="loginbutton2" type="submit">Login</button>
-                  <button class="cancelbutton" type="button" onclick="document.getElementById('id01').style.display='none'">CANCEL</button>
-               </div>
-            </form>
-         </div>
-         <div id="id02" class="modal">
-            <form action="http://webdevfoundations.net/scripts/formdemo.asp" method="post" class="modal-content" name="form">
-               <div class="container">
-                  <label><b>User Name</b></label>
-                  <input onchange="InvalidName()" type="text" placeholder="ENTER YOUR USERID" name="newname" id="textUserup">
-                  <label><b>Password</b></label>
-                  <input onchange="InvalidPw()" type="password" placeholder="ENTER YOUR PASSWORD" name="newpassword" id="passw">
-                  <div id="gender">
-                     <b>Gender</b>
-                     <input type="radio" name="gender" value="male" id="male" checked="checked"><label for="male">Male</label>
-                     <input type="radio" name="gender" value="female" id="female"><label for="female">Female</label>
-                     <input type="radio" name="gender" value="other" id="other"><label for="other">Other</label>
-                  </div>
-                  <button class="loginbutton2" type="submit" >REGISTER</button>
-                  <button class="cancelbutton" type="button" onclick="document.getElementById('id02').style.display='none'">CANCEL</button>
-               </div>
-            </form>
-         </div>
-         <div id="error1" class="modal">
-            <form action="http://webdevfoundations.net/scripts/formdemo.asp" method="post" class="modal-content">
-               <div >
-                  <h2 class="centering">Invalid User name!</h2>
-                  <button class="cancelbutton" type="button" onclick="back('error1')">OK!</button>
-               </div>
-            </form>
-         </div>
-         <div id="error2" class="modal">
-            <form action="http://webdevfoundations.net/scripts/formdemo.asp" method="post" class="modal-content">
-               <div >
-                  <h2 class="centering">Invalid PassWord!</h2>
-                  <button class="cancelbutton" type="button" onclick="back('error2')">OK!</button>
-               </div>
-            </form>
-         </div>
-        </header>			
+			<header>
+				<div id="id01" class="modal">
+					<form action="http://webdevfoundations.net/scripts/formdemo.asp" class="modal-content">
+						<div class="container">
+							<label><b>User Name</b></label>
+							<input type="text" placeholder="ENTER YOUR USERID" name="unname" class="inputColor" id="textUser">
+							<label><b>Password</b></label>
+							<input type="password" placeholder="ENTER YOUR PASSWORD" name="pw" class="inputColor">
+							<button class="loginbutton2" type="submit">Login</button>
+							<button class="cancelbutton" type="button" onclick="document.getElementById('id01').style.display='none'">CANCEL</button>
+						</div>
+					</form>
+				</div>
+				<div id="id02" class="modal">
+					<form action="http://webdevfoundations.net/scripts/formdemo.asp" class="modal-content">
+						<div class="container">
+							<label><b>User Name</b></label>
+							<input type="text" placeholder="ENTER YOUR USERID" name="newname" id="textUserup">
+							<label><b>Password</b></label>
+							<input type="password" placeholder="ENTER YOUR PASSWORD" name="newpassword">
+							<button class="loginbutton2" type="submit">REGISTER</button>
+							<button class="cancelbutton" type="button" onclick="document.getElementById('id02').style.display='none'">CANCEL</button>
+						</div>
+					</form>
+				</div>
+			</header>
+			
 			<nav>
-			   
-				<strong>X-GLOBAL</strong>
+				<a href="index.html"><strong>X-GLOBAL</strong></a>
 				<!--need to span words-->
 				<a href="index.html" class="button1"><span>HOME</span></a>
 				<div class="dropdown">
@@ -146,10 +57,10 @@
 				<!--move sign in and up here with a div-->
 			<button class="button" onclick="document.getElementById('id01').style.display='block'">SIGN IN</button>&nbsp;<button class="button" 
 			onclick="document.getElementById('id02').style.display='block'">SIGN UP</button>
-				
 				</div>
 			</nav>
-		</div>					
+		</div>	
+		
 		<div id="all">
 			<main>
 				<form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp" name="postcomments">
@@ -167,9 +78,8 @@
 						<br>
 						<label for = "OPINION"><strong>Your opinions</strong></label><br>
 						<textarea name="opinion" id = "OPINION" placeholder="Comment here" ></textarea><p>	
-						<!--<input type = "submit" value = "Send!">-->
+		
 						<input type="submit" id="send">
-						
 					</fieldset>
 					
 					<fieldset>
@@ -201,8 +111,8 @@
 							Saturday - Sunday<br>
 							Close</p>
 							<h2>Map</h2>
-							<div id="map">
-								<script>
+						<div id="map">
+							<script>
 									function initMap() {
 									var uluru = {lat: 49.251514, lng: -123.00452000000001};
 									var map = new google.maps.Map(document.getElementById('map'), {
@@ -214,7 +124,7 @@
 									map: map
 									});
 									}
-								</script>
+							</script>
 								<script async defer
 									src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUHn7pZD4k44SBuJq4j7eC813xvA3DzSU&callback=initMap">
 								</script>
