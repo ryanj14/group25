@@ -8,6 +8,8 @@ header ul{
 	text-align:right;
 	list-style-type:none;
 }
+#gender input{width:10px;
+             height:10px}	
 .button {
 	padding:10px 30px 10px 30px;
 	font-size:16px;
