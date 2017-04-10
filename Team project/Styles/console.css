@@ -228,19 +228,21 @@ main {
 	border-radius:5px;
 	overflow:hidden;
 }
-.zelda {
-	width:462px;/* copy this for your article */
+.newsimg:hover .overlap{opacity:1}
+.nintendo {
+	width:462px;
 	height:320px;
 	box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
 	border-bottom:2px solid #fff;
 	border-right:2px solid #fff;
 	margin-left:auto;
 	margin-right:auto;
-	background-image:url(../images/breathofthewild2.png); /* your picture ulr goes here */
+	background-image:url(../images/nintendodirect.png);
 	background-size:cover;
 	border-radius:5px;
 	overflow:hidden;
 }
+.nintendo:hover .overlap{opacity:1}
 .cod {
 	width:462px;
 	height:320px;
@@ -254,6 +256,7 @@ main {
 	border-radius:5px;
 	overflow:hidden;
 }	
+.cod:hover .overlap{opacity:1}
 .battlefield {
 	width:462px;
 	height:320px;
@@ -267,6 +270,7 @@ main {
 	border-radius:5px;
 	overflow:hidden;
 }
+.battlefield:hover .overlap{opacity:1}
 .arma3 {
 	width:462px;
 	height:320px;
@@ -282,6 +286,7 @@ main {
 	border-radius:5px;
 	overflow:hidden;
 }
+.arma3:hover .overlap{opacity:1}
 .starve {
 	width:462px;
 	height:320px;
@@ -297,6 +302,7 @@ main {
 	border-radius:5px;
 	overflow:hidden;
 }
+.starve:hover .overlap{opacity:1}
 .top10 {
 	width:462px;
 	height:320px;
@@ -312,6 +318,7 @@ main {
 	border-radius:5px;
 	overflow:hidden;
 }
+.top10:hover .overlap{opacity:1}
 table {
 	margin-left:auto;
 	margin-right:auto;
@@ -337,13 +344,6 @@ table td {
 	opacity:0;
 	transition: opacity .25s ease;
 }
-.newsimg:hover .overlap{opacity:1}/* add you class here with overlap*/
-.battlefield:hover .overlap{opacity:1}
-.cod:hover .overlap{opacity:1}
-.zelda:hover .overlap{opacity:1}
-.arma3:hover .overlap{opacity:1}
-.starve:hover .overlap{opacity:1}
-.top10:hover .overlap{opacity:1}
 .Enter a {
 	font-family:Impact, Charcoal, sans-serif;
 	font-size:200px;
