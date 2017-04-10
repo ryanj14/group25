@@ -180,18 +180,23 @@ nav strong {
 	z-index:1;
 }
 .dropdown-content a {
-	display:block;
+	display:inline-block;
 	color:white;
 	text-decoration:none;
 }
 .dropdown-content ul {
 	list-style-type:none;
 	padding-left:0px;
+	text-align:center;
+	margin-right: auto;
+	margin-left: auto;
+	display:inline-block;
 }
 .dropdown-content li {
 	padding-top:5px;
 	padding-bottom:5px;
 	padding-left:0px;
+	display: inline-block;
 }			 
 .dropdown-content a:hover {
 	color:white;
@@ -237,7 +242,8 @@ main {
 	background-size:cover;
 	border-radius:5px;
 	overflow:hidden;
-}			  
+}
+.cod:hover .overlap{opacity:1}
 .zelda {
 	width:462px;
 	height:320px;
@@ -251,6 +257,68 @@ main {
 	border-radius:5px;
 	overflow:hidden;
 }
+.top10 {
+	width:462px;
+	height:320px;
+	box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+	border-bottom:2px solid #fff;
+	border-right:2px solid #fff;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(../images/top10.png);
+	background-size:cover;
+	background-position:center;
+	background-size:462px 320px;
+	border-radius:5px;
+	overflow:hidden;
+}
+.top10:hover .overlap{opacity:1}
+.starve {
+	width:462px;
+	height:320px;
+	box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+	border-bottom:2px solid #fff;
+	border-right:2px solid #fff;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(../images/starve.png);
+	background-size:cover;
+	background-position:center;
+	background-size:462px 320px;
+	border-radius:5px;
+	overflow:hidden;
+}
+.starve:hover .overlap{opacity:1}
+.arma3 {
+	width:462px;
+	height:320px;
+	box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+	border-bottom:2px solid #fff;
+	border-right:2px solid #fff;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(../images/arma3.png);
+	background-size:cover;
+	background-position:center;
+	background-size:462px 320px;
+	border-radius:5px;
+	overflow:hidden;
+}
+.arma3:hover .overlap{opacity:1}
+.pokemon {
+	width:462px;
+	height:320px;
+	box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+	border-bottom:2px solid #fff;
+	border-right:2px solid #fff;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(../images/pokemon.jpg);
+	background-size:cover;
+	border-radius:5px;
+	overflow:hidden;
+}
+.pokemon:hover .overlap{opacity:1}
 .battlefield {
 	width:462px;
 	height:320px;
@@ -264,6 +332,21 @@ main {
 	border-radius:5px;
 	overflow:hidden;
 }	
+.battlefield:hover .overlap{opacity:1}
+.mario {
+	width:462px;
+	height:320px;
+	box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+	border-bottom:2px solid #fff;
+	border-right:2px solid #fff;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(../images/mario.png);
+	background-size:cover;
+	border-radius:5px;
+	overflow:hidden;
+}
+.mario:hover .overlap{opacity:1}
 .newsimg2 {
 	width:462px;
 	height:320px;
@@ -288,8 +371,6 @@ main {
 }
 .newsimg:hover .overlap{opacity:1}
 .newsimg2:hover .overlap{opacity:1}
-.battlefield:hover .overlap{opacity:1}
-.cod:hover .overlap{opacity:1}
 .zelda:hover .overlap{opacity:1}
 .Enter a {
 	font-family:Impact, Charcoal, sans-serif;

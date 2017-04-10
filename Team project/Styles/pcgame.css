@@ -152,7 +152,7 @@ nav strong {
 	position: relative;
 	transition: 0.5s;
 	margin:0.3em;
-}
+	}
 .button1 span:after {
 	content: '\00bb';
 	position: absolute;
@@ -247,6 +247,7 @@ main {
 	border-radius:5px;
 	overflow:hidden;
 }
+.arma3:hover .overlap{opacity:1}
 .starve {
 	width:462px;
 	height:320px;
@@ -262,6 +263,7 @@ main {
 	border-radius:5px;
 	overflow:hidden;
 }
+.starve:hover .overlap{opacity:1}
 .top10 {
 	width:462px;
 	height:320px;
@@ -277,6 +279,7 @@ main {
 	border-radius:5px;
 	overflow:hidden;
 }
+.top10:hover .overlap{opacity:1}
 table {
 	margin-left:auto;
 	margin-right:auto;
@@ -301,9 +304,6 @@ table td {
 	transition: opacity .25s ease;
 }
 .newsimg:hover .overlap{opacity:1}/* add you class here with overlap*/
-.arma3:hover .overlap{opacity:1}
-.starve:hover .overlap{opacity:1}
-.top10:hover .overlap{opacity:1}
 .Enter a {
 	font-family:Impact, Charcoal, sans-serif;
 	font-size:200px;

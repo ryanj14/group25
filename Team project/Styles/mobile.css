@@ -242,7 +242,7 @@ main {
 	margin-right:auto;
 }
 .center2 {text-align:center;}
-.newsimg {
+.mario {
 	width:462px;
 	height:320px;
 	box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
@@ -255,7 +255,8 @@ main {
 	border-radius:5px;
 	overflow:hidden;
 }
-.newsimg1 {
+.mario:hover .overlap{opacity:1}
+.pokemon {
 	width:462px;
 	height:320px;
 	box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
@@ -268,6 +269,7 @@ main {
 	border-radius:5px;
 	overflow:hidden;
 }
+.pokemon:hover .overlap{opacity:1}
 .newsimg2 {
 	width:462px;
 	height:320px;
@@ -281,6 +283,7 @@ main {
 	border-radius:5px;
 	overflow:hidden;
 }
+.newsimg2:hover .overlap{opacity:1}
 .overlap {  
 	width:462px;
 	height:320px;
@@ -290,9 +293,6 @@ main {
 	opacity:0;
 	transition: opacity .25s ease;
 }
-.newsimg:hover .overlap{opacity:1}
-.newsimg2:hover .overlap{opacity:1}
-.newsimg1:hover .overlap{opacity:1}
 .Enter a {
 	font-family:Impact, Charcoal, sans-serif;
 	font-size:200px;
