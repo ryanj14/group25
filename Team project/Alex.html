@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
-      <title>Battlefield 1 Winter Update</title>
+      <title>Infinity Ward layoffs at Activion</title>
       <meta charset="utf-8">
-      <script src="Styles/error.js"></script>
       <Link rel="stylesheet" href="Styles/detailinfo.css">
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
       <script>
@@ -16,6 +15,38 @@
             
             });
          <!--End of scroll button-->
+         function $(id){
+         var element = document.getElementById(id);
+         if(id == null){
+         alert("ERROR");
+         }return element;
+         }
+         
+         function testName(id){
+         var txt = /^[A-Za-z0-9]{4,10}$/i;
+         var name = $(id).value;
+         var result = txt.test(name);
+         return result;}
+         
+         function InvalidName(){
+         if(!testName("textUserup"))
+         $("error1").style.display="block";
+         if(!testName("textUserup"))
+         clearField('textUserup');}
+         
+         function InvalidPw(){
+         if(!testName("passw"))
+         $("error2").style.display="block";
+         if(!testName("passw"))
+         clearField('passw');}
+         
+         function back(id){
+         $(id).style.display = "none";}
+         
+         function clearField(input) {
+         $(input).value = "";
+         };
+         
       </script>
    </head>
    <body>
@@ -49,9 +80,9 @@
                   <button class="cancelbutton" type="button" onclick="document.getElementById('id02').style.display='none'">CANCEL</button>
                </div>
             </form>
-            </div>
-            <div id="error1" class="modal">
-            <form action="webdevfoundations.net/scripts/formdemo.asp" method="post" class="modal-content">
+         </div>
+         <div id="error1" class="modal">
+            <form action="http://webdevfoundations.net/scripts/formdemo.asp" method="post" class="modal-content">
                <div >
                   <h2 class="centering">Invalid User name!</h2>
                   <button class="cancelbutton" type="button" onclick="back('error1')">OK!</button>
@@ -59,8 +90,8 @@
             </form>
          </div>
          <div id="error2" class="modal">
-            <form action="webdevfoundations.net/scripts/formdemo.asp" method="post" class="modal-content">
-               <div>
+            <form action="http://webdevfoundations.net/scripts/formdemo.asp" method="post" class="modal-content">
+               <div >
                   <h2 class="centering">Invalid PassWord!</h2>
                   <button class="cancelbutton" type="button" onclick="back('error2')">OK!</button>
                </div>
@@ -89,15 +120,15 @@
          </div>
       </nav>
       <main>
-         <div class="video">
-            <iframe src="https://www.youtube.com/embed/ye1-Z7oj9uc" allowfullscreen></iframe>
+         <div class="infinity">
          </div>
          <div class="details">
-            <p><b>Detail Information:<br></b>Suspendisse vel lacus et mauris volutpat tincidunt luctus sed risus. Nullam eu auctor dolor. Nulla auctor, nisl nec fringilla pellentesque, risus dui tristique leo, vel sagittis nunc neque id massa. 
-               Donec volutpat, arcu in blandit sollicitudin, quam sapien euismod orci, sit amet suscipit ex nisl eu est. Phasellus et mauris ante. Integer turpis arcu, fermentum nec sagittis quis, ultricies et elit. 
-               Cras eu quam tortor.
+            <p><b>Detail Information:<br></b>Nullam sit amet dapibus ante. Phasellus euismod, nisl vel ultrices eleifend, leo lorem sagittis elit, nec accumsan magna velit nec nisl. 
+               Nam posuere, ligula a mollis egestas, ipsum justo vehicula ligula, sed volutpat turpis turpis a urna. Suspendisse tellus libero, euismod ac pharetra volutpat, ornare vel nulla.
+               Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+               Curabitur efficitur neque nec nisi pharetra malesuada. 
+               Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
             </p>
-			<p>Source: <a href="https://twitter.com/CDPROJEKTRED/status/850022540042960896">Twitter</a>
          </div>
          <p class="back"><a href="index.html">&larr;BACK</a></p>
       </main>

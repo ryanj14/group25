@@ -215,7 +215,7 @@ main {
 	padding-top:7%;
 	background-color:white;
 }
-.newsimg {
+.alex {
 	width:462px;
 	height:320px;
 	box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
@@ -223,12 +223,12 @@ main {
 	border-right:2px solid #fff;
 	margin-left:auto;
 	margin-right:auto;
-	background-image:url(../images/here.png);
+	background-image:url(../images/farcry4.png);
 	background-size:cover;
 	border-radius:5px;
 	overflow:hidden;
 }
-.newsimg:hover .overlap{opacity:1}
+.alex:hover .overlap{opacity:1}
 .nintendo {
 	width:462px;
 	height:320px;
