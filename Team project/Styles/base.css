@@ -314,7 +314,7 @@ main {
 	border-right:2px solid #fff;
 	margin-left:auto;
 	margin-right:auto;
-	background-image:url(../images/pokemon.jpg);
+	background-image:url(../images/magickarp.jpg);
 	background-size:cover;
 	border-radius:5px;
 	overflow:hidden;
@@ -348,7 +348,7 @@ main {
 	overflow:hidden;
 }
 .hearthstone:hover .overlap{opacity:1}
-.newsimg2 {
+.mario {
 	width:462px;
 	height:320px;
 	box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
@@ -356,11 +356,12 @@ main {
 	border-right:2px solid #fff;
 	margin-left:auto;
 	margin-right:auto;
-	background-image:url(../images/1.jpg);
+	background-image:url(../images/mariorun.png);
 	background-size:cover;
 	border-radius:5px;
 	overflow:hidden;
-}	  
+}	
+.mario:hover .overlap{opacity:1}
 .overlap { 
 	width:462px;
 	height:320px;
@@ -371,7 +372,6 @@ main {
 	transition: opacity .25s ease;
 }
 .newsimg:hover .overlap{opacity:1}
-.newsimg2:hover .overlap{opacity:1}
 .Enter a {
 	font-family:Impact, Charcoal, sans-serif;
 	font-size:200px;
