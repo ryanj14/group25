@@ -2,7 +2,8 @@ body {
 	background-image: url("../images/back.jpg");
 	background-repeat: no-repeat;
 	background-size: 101% 100%;
-
+    margin:0;
+	padding:0;
 }
 header img {
 	width:65px;
@@ -112,6 +113,7 @@ nav {top:0;
 	background-color:black;
 	text-align:center;
 	z-index:1;
+	border-bottom:2px solid white;
 }
 #nav_sign{
 	text-align:right;
@@ -234,9 +236,11 @@ nav strong {
 	text-shadow:3px 3px 3px white;
 }
 main {
-	width:50.5%;
+	width:52%;
 	margin-left:auto;
 	margin-right:auto;
+	padding-top:7%;
+	background-color:white;
 }
 .center2 {text-align:center;}
 .hearthstone {
