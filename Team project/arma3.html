@@ -5,7 +5,17 @@
       <meta charset="utf-8">
       <Link rel="stylesheet" href="Styles/detailinfo.css">
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-      
+      <script>
+         <!--Beggining of scroll up button-->
+            $(function($){
+            $('.scroll-to-top-link').click(function(){
+            	$("html, body").animate({ scrollTop: 0}, 1000);
+            	return false;
+            });
+            
+            });
+         <!--End of scroll button-->
+      </script>
    </head>
    <body>
     <script src="Styles/contact.js">
