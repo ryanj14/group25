@@ -11,24 +11,44 @@
 		<div id = "above">
 			<header>
 				<div id="id01" class="modal">
-					<form action="http://webdevfoundations.net/scripts/formdemo.asp" class="modal-content">
+				<!--Login-->
+					<form action="http://webdevfoundations.net/scripts/formdemo.asp" onsubmit="return formValidate()" class="modal-content">
 						<div class="container">
+						
+						<div id="nameerror">
 							<label><b>User Name</b></label>
 							<input type="text" placeholder="ENTER YOUR USERID" name="unname" class="inputColor" id="textUser">
+						<div id="nameposition">
+						</div>
+						</div>	
+						
+						<div id ="passerror">
 							<label><b>Password</b></label>
-							<input type="password" placeholder="ENTER YOUR PASSWORD" name="pw" class="inputColor">
+							<input type="password" placeholder="ENTER YOUR PASSWORD" name="pw" class="inputColor" id="password">
+						<div id = "passposition">
+                        </div>						
+						</div>
+				<!--Login-->		
 							<button class="loginbutton2" type="submit">Login</button>
 							<button class="cancelbutton" type="button" onclick="document.getElementById('id01').style.display='none'">CANCEL</button>
 						</div>
 					</form>
 				</div>
 				<div id="id02" class="modal">
-					<form action="http://webdevfoundations.net/scripts/formdemo.asp" class="modal-content">
+				<!--Logup-->
+					<form action="http://webdevfoundations.net/scripts/formdemo.asp" onsubmit="return formValidateup()" class="modal-content">
 						<div class="container">
+						<div id ="nameerrorup">
 							<label><b>User Name</b></label>
 							<input onblur="InvalidName()" type="text" placeholder="ENTER YOUR USERID" name="newname" id="textUserup">
+						<div id="namepositionup"></div>
+						</div>	
+						<div id="passerrorup">
 							<label><b>Password</b></label>
-							<input onblur="InvalidPw()" type="password" placeholder="ENTER YOUR PASSWORD" name="newpassword">
+							<input onblur="InvalidPw()" type="password" placeholder="ENTER YOUR PASSWORD" name="newpassword" id="passwordup">
+						<div id="passpositionup"></div>
+						</div>
+				<!--Logup-->		
 						<div id="gender">
                             <b>Gender</b>
                             <input type="radio" name="gender" value="male" id="male" checked="checked"><label for="male">Male</label>
@@ -75,17 +95,17 @@
 					
 						<legend id = "contact_123"><strong>Contact us rightnow !</strong></legend>
 						<label for = "userNAME"><strong>Your name here</strong></label><br>
-						<input type="text" name="username" id = "userNAME" onblur="warnUserName('userNAME')">
+						<input class = "commentinput" type="text" name="username" id = "userNAME" onblur="warnUserName('userNAME')">
 						<p id="usernamewarn"></p>
 						<br>
 						<label for = "userEMAIL"><strong>Your contact email</strong></label><br>
-						<input type="email" name="useremail" id = "userEMAIL" onblur="warnEmail('userEMAIL')">
+						<input class = "commentinput" type="email" name="useremail" id = "userEMAIL" onblur="warnEmail('userEMAIL')">
 						<p id="emailwarn"></p>
 						<br>
 						<label for = "OPINION"><strong>Your opinions</strong></label><br>
-						<textarea name="opinion" id = "OPINION" placeholder="Comment here" ></textarea><p>	
+						<textarea class = "commentinput" name="opinion" id = "OPINION" placeholder="Comment here" ></textarea><p>	
 		
-						<input type="submit" id="send">
+						<input class = "commentinput" type="submit" id="send">
 					</fieldset>
 					
 					<fieldset>
