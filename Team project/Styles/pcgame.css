@@ -8,15 +8,14 @@ body {
 header {background-color:white;}
 input {
 	width:90%;
-	height:30px;
-	padding:12px 20px;
+	padding:15px 31px;
 	border:1px solid black;
 	margin: 10px 0;
 }
 .loginbutton2 {
 	background-color:#4CAF50;
 	color:white;
-	padding:14px 20px;
+	padding:15px 32px;
 	margin: 8px 0;
 	border: none;
 	cursor: pointer;
@@ -25,7 +24,7 @@ input {
 .cancelbutton {
 	background-color:red;
 	color:white;
-	padding:14px 20px;
+	padding:15px 32px;
 	margin: 8px 0;
 	border: none;
 	cursor: pointer;

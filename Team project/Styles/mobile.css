@@ -2,10 +2,7 @@ body {
 	background-image: url("../images/back.jpg");
 	background-repeat: no-repeat;
 	background-size: 101% 100%;
-	margin-left:auto;
-	margin-right:auto;
-	 margin:0;
-	 padding:0
+
 }
 header img {
 	width:65px;
@@ -32,19 +29,19 @@ header ul {
 	background-color:white;
 	border:2px solid black;
 	color:black;
-	padding:15px 32px;
+	padding:10px 30px 10px 30px;
 	text-align:center;
 	text-decoration:none;
 	font-size:16px;
 	cursor:pointer;
 	border-radius:12px;
+	margin: 0.5em;
 }	
 input {
 	width:90%;
-	height:30px;
-	padding:12px 20px;
+	padding:15px 31px;
 	border:1px solid black;
-	margin: 10px 0
+	margin: 10px 0;
 }	 
 .userbutton {
 	background-color:white;
@@ -230,7 +227,7 @@ nav strong {
 }
 .dropdown:hover .dropdown-content {
 	display:block;
-	padding:5px 30px 5px 5px
+	padding:5px 30px 5px 5px;
 }
 .dropdown:hover .button1 {
 	color:white;

@@ -19,17 +19,16 @@ header ul {
 .centering {text-align:center}
 input {
 	width:90%;
-	height:30px;
-	padding:12px 20px;
+	padding:15px 31px;
 	border:1px solid black;
-	margin: 10px 0
+	margin: 10px 0;
 }
 #gender input{width:10px;
-             height:10px}	
+             height:10px;}	
 .loginbutton2 {
 	background-color:#4CAF50;
 	color:white;
-	padding:14px 20px;
+	padding:15px 32px;
 	margin: 8px 0;
 	border: none;
 	cursor: pointer;
@@ -51,7 +50,7 @@ input {
 	background-color:white;
 	border:2px solid black;
 	color:black;
-	padding:15px 32px;
+	padding:14px 20px;
 	text-align:center;
 	text-decoration:none;
 	font-size:16px;
@@ -75,6 +74,7 @@ input {
 	border: none;
 	cursor: pointer;
 	width:100%;
+	border:2px solid;
 }
 .container {padding:16px;}
 .center {
