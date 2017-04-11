@@ -52,34 +52,56 @@
    <body>
       <header>
          <div id="id01" class="modal">
-            <form action="http://webdevfoundations.net/scripts/formdemo.asp" method="post" class="modal-content">
-               <div class="container">
-                  <label><b>User Name</b></label>
-                  <input type="text" placeholder="ENTER YOUR USERID" name="unname" class="inputColor" id="textUser">
-                  <label><b>Password</b></label>
-                  <input type="password" placeholder="ENTER YOUR PASSWORD" name="pw" class="inputColor">
-                  <button class="loginbutton2" type="submit">Login</button>
-                  <button class="cancelbutton" type="button" onclick="document.getElementById('id01').style.display='none'">CANCEL</button>
-               </div>
-            </form>
+		 <script src="Styles/contact.js">
+		</script>
+		<!--Login-->
+            <form action="http://webdevfoundations.net/scripts/formdemo.asp" onsubmit="return formValidate()" class="modal-content">
+						<div class="container">
+						
+						<div id="nameerror">
+							<label><b>User Name</b></label>
+							<input type="text" placeholder="ENTER YOUR USERID" name="unname" class="inputColor" id="textUser">
+						<div id="nameposition">
+						</div>
+						</div>	
+						
+						<div id ="passerror">
+							<label><b>Password</b></label>
+							<input type="password" placeholder="ENTER YOUR PASSWORD" name="pw" class="inputColor" id="password">
+						<div id = "passposition">
+                        </div>						
+						</div>
+		<!--Login-->		
+							<button class="loginbutton2" type="submit">Login</button>
+							<button class="cancelbutton" type="button" onclick="document.getElementById('id01').style.display='none'">CANCEL</button>
+						</div>
+					</form>
          </div>
          <div id="id02" class="modal">
-            <form action="http://webdevfoundations.net/scripts/formdemo.asp" method="post" class="modal-content" name="form">
-               <div class="container">
-                  <label><b>User Name</b></label>
-                  <input onblur="InvalidName()" type="text" placeholder="ENTER YOUR USERID" name="newname" id="textUserup">
-                  <label><b>Password</b></label>
-                  <input onblur="InvalidPw()" type="password" placeholder="ENTER YOUR PASSWORD" name="newpassword" id="passw">
-                  <div id="gender">
-                     <b>Gender</b>
-                     <input type="radio" name="gender" value="male" id="male" checked="checked"><label for="male">Male</label>
-                     <input type="radio" name="gender" value="female" id="female"><label for="female">Female</label>
-                     <input type="radio" name="gender" value="other" id="other"><label for="other">Other</label>
-                  </div>
-                  <button class="loginbutton2" type="submit" >REGISTER</button>
-                  <button class="cancelbutton" type="button" onclick="document.getElementById('id02').style.display='none'">CANCEL</button>
-               </div>
-            </form>
+		 <!--Logup-->
+            <form action="http://webdevfoundations.net/scripts/formdemo.asp" onsubmit="return formValidateup()" class="modal-content">
+						<div class="container">
+						<div id ="nameerrorup">
+							<label><b>User Name</b></label>
+							<input onblur="InvalidName()" type="text" placeholder="ENTER YOUR USERID" name="newname" id="textUserup">
+						<div id="namepositionup"></div>
+						</div>	
+						<div id="passerrorup">
+							<label><b>Password</b></label>
+							<input onblur="InvalidPw()" type="password" placeholder="ENTER YOUR PASSWORD" name="newpassword" id="passwordup">
+						<div id="passpositionup"></div>
+						</div>
+		<!--Logup-->		
+						<div id="gender">
+                            <b>Gender</b>
+                            <input type="radio" name="gender" value="male" id="male" checked="checked"><label for="male">Male</label>
+                            <input type="radio" name="gender" value="female" id="female"><label for="female">Female</label>
+                            <input type="radio" name="gender" value="other" id="other"><label for="other">Other</label>
+                       </div>
+							<button class="loginbutton2" type="submit">REGISTER</button>
+							<button class="cancelbutton" type="button" onclick="document.getElementById('id02').style.display='none'">CANCEL</button>
+						</div>
+					</form>
          </div>
          <div id="error1" class="modal">
             <form action="http://webdevfoundations.net/scripts/formdemo.asp" method="post" class="modal-content">
