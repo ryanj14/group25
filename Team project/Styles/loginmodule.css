@@ -15,7 +15,7 @@ input {
 .loginbutton2 {
 	background-color:#4CAF50;
 	color:white;
-	padding:14px 20px;
+	padding:15px 32px;
 	margin: 8px 0;
 	border: none;
 	cursor: pointer;
@@ -24,7 +24,7 @@ input {
 .cancelbutton {
 	background-color:red;
 	color:white;
-	padding:14px 20px;
+	padding:15px 32px;
 	margin: 8px 0;
 	border: none;
 	cursor: pointer;
@@ -74,11 +74,10 @@ header ul {
 	list-style-type:none;
 }
 nav {position:fixed;
-     width:100%;
+    width:100%;
 	background-color:black;
     clear:left;
     text-align:center;
-	top:0px;
 	border-bottom:2px solid white;
 	z-index:1;
 }
@@ -119,12 +118,6 @@ nav a {
 	font-family:Impact, Charcoal, sans-serif;
 	display:inline-block;
 }
-#nav_sign{
-	padding-right:2em;
-	padding-top:1em;
-	color:white;
-	float:right;
-}
 nav strong {
 	color:white;
 	font-family:Impact, Charcoal, sans-serif;
@@ -132,6 +125,17 @@ nav strong {
 	font-weight:bold;
 	font-size:20px;
 } 
+#nav_sign{
+	padding-right:2em;
+	padding-top:1em;
+	color:white;
+	float:right;	
+}
+#gender input {
+	width:10px;
+	height:10px;
+}
+.centering {text-align:center}
 .button1 {
 	padding:10px 30px 10px 30px;
 	font-size:16px;
@@ -149,7 +153,7 @@ nav strong {
 	position: relative;
 	transition: 0.5s;
 	margin:0.3em;
-}
+	}
 .button1 span:after {
 	content: '\00bb';
 	position: absolute;
@@ -160,8 +164,8 @@ nav strong {
 }
 .button1:hover span {padding-right: 25px;}
 .button1:hover span:after {
-  opacity: 1;
-  right: 0;
+	opacity: 1;
+	right: 0;
 }
 .navbar {
 	float:left;
@@ -215,125 +219,24 @@ main {
 	margin-right:auto;
 	padding-top:7%;
 	background-color:white;
+	
 }
-.alex {
-	width:462px;
-	height:320px;
-	box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-	border-bottom:2px solid #fff;
-	border-right:2px solid #fff;
-	margin-left:auto;
-	margin-right:auto;
-	background-image:url(../images/farcry4.png);
-	background-size:cover;
-	border-radius:5px;
-	overflow:hidden;
-}
-.alex:hover .overlap{opacity:1}
-.nintendo {
-	width:462px;
-	height:320px;
-	box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-	border-bottom:2px solid #fff;
-	border-right:2px solid #fff;
-	margin-left:auto;
-	margin-right:auto;
-	background-image:url(../images/nintendodirect.png);
-	background-size:cover;
-	border-radius:5px;
-	overflow:hidden;
-}
-.nintendo:hover .overlap{opacity:1}
-.cyberpunk {
-	width:462px;
-	height:320px;
-	box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-	border-bottom:2px solid #fff;
-	border-right:2px solid #fff;
-	margin-left:auto;
-	margin-right:auto;
-	background-image:url(../images/cyberpunk2077.jpg);
-	background-size:cover;
-	border-radius:5px;
-	overflow:hidden;
-}	
-.cyberpunk:hover .overlap{opacity:1}
-.battlefield {
-	width:462px;
-	height:320px;
-	box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-	border-bottom:2px solid #fff;
-	border-right:2px solid #fff;
-	margin-left:auto;
-	margin-right:auto;
-	background-image:url(../images/battlefield1.png);
-	background-size:cover;
-	border-radius:5px;
-	overflow:hidden;
-}
-.battlefield:hover .overlap{opacity:1}
-.arma3 {
-	width:462px;
-	height:320px;
-	box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-	border-bottom:2px solid #fff;
-	border-right:2px solid #fff;
-	margin-left:auto;
-	margin-right:auto;
-	background-image:url(../images/arma3.png);
-	background-size:cover;
-	background-position:center;
-	background-size:462px 320px;
-	border-radius:5px;
-	overflow:hidden;
-}
-.arma3:hover .overlap{opacity:1}
-.starve {
-	width:462px;
-	height:320px;
-	box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-	border-bottom:2px solid #fff;
-	border-right:2px solid #fff;
-	margin-left:auto;
-	margin-right:auto;
-	background-image:url(../images/starve.png);
-	background-size:cover;
-	background-position:center;
-	background-size:462px 320px;
-	border-radius:5px;
-	overflow:hidden;
-}
-.starve:hover .overlap{opacity:1}
-.top10 {
-	width:462px;
-	height:320px;
-	box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
-	border-bottom:2px solid #fff;
-	border-right:2px solid #fff;
-	margin-left:auto;
-	margin-right:auto;
-	background-image:url(../images/top10.png);
-	background-size:cover;
-	background-position:center;
-	background-size:462px 320px;
-	border-radius:5px;
-	overflow:hidden;
-}
-.top10:hover .overlap{opacity:1}
+
+
+
+
 table {
 	margin-left:auto;
 	margin-right:auto;
 	border-collapse:collapse;
-	background-color:white;
-	width:48%;
 }
 table th {
-	background-color: #D3D3D3;
-	border: 1px solid #000000;
+	
+	border: none;
 	text-align:left;
 }	
 table td {
-	border: 1px solid #000000;
+	border: none;
 	padding: 4px 8px;
 }	
 .overlap {  
@@ -345,6 +248,7 @@ table td {
 	opacity:0;
 	transition: opacity .25s ease;
 }
+.newsimg:hover .overlap{opacity:1}/* add you class here with overlap*/
 .Enter a {
 	font-family:Impact, Charcoal, sans-serif;
 	font-size:200px;
@@ -358,7 +262,7 @@ table td {
 	border-bottom:2px solid black;
 	padding-top:20px;
 }
-.news textarea {width:100%}
+.news textarea {width:100%;}
 .center2 {
 	width:462px;
 	margin-left:auto;
@@ -374,25 +278,19 @@ table td {
 	text-align:center;
 	border-bottom:2px solid black;
 }
-#gender input{
-	width:10px;
-    height:10px;
-}
-.centering {text-align:center}
-footer{
+footer {
 	background-color:black;
 	text-align:center;
 	color:white;
-	height:30px;
+	height:30px
 }
-#force {margin-top:21%}
 footer img {
 	padding-left:5px;
 	padding-right:5px;
 	width:30px;
 	height:30px;
-	float:right
-}
+	float:right;
+}	
 /*Scroll up function*/
 .scroll-to-top-link{
 	position:fixed;

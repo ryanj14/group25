@@ -8,7 +8,8 @@ body {
 header {background-color:white;}
 input {
 	width:90%;
-	padding:15px 31px;
+	height:30px;
+	padding:12px 20px;
 	border:1px solid black;
 	margin: 10px 0;
 }
@@ -123,7 +124,9 @@ nav a {
 	display:inline-block;
 }
 #nav_sign{
-	text-align:right;
+	padding-right:2em;
+	padding-top:1em;
+	color:white;
 	float:right;
 }
 nav strong {

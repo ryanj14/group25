@@ -133,7 +133,9 @@ nav strong {
 	font-size:20px
 } 
 #nav_sign {
-	text-align:right;
+	padding-right:2em;
+	padding-top:1em;
+	color:white;
 	float:right;
 }
 .button1 {

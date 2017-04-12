@@ -80,7 +80,12 @@ nav {
 	width:100%;
 	text-align: center;
 }
-#nav_sign{float:right;}
+#nav_sign{
+	padding-right:2em;
+	padding-top:1em;
+	color:white;
+	float:right;
+}
 .dropbtn {
 	color:white;
 	padding:10px 30px 10px 30px;
@@ -205,7 +210,7 @@ main {
 	margin-left:auto;
 	margin-right:auto;
 }
-#force {margin-top:65%}
+#force {margin-top:21%}
 #banner1 {float:right;}
 .clearright {clear:right;}
 footer {
