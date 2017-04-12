@@ -17,6 +17,7 @@
 
 	$rows=mysqli_fetch_array($result);
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -41,54 +42,10 @@
 		</script>
       <header>
          <div id="id01" class="modal">
-            <!--Login-->
-					<form action="http://webdevfoundations.net/scripts/formdemo.asp" onsubmit="return formValidate()" class="modal-content">
-						<div class="container">
-						
-						<div id="nameerror">
-							<label><b>User Name</b></label>
-							<input type="text" placeholder="ENTER YOUR USERID" name="unname" class="inputColor" id="textUser">
-						<div id="nameposition">
-						</div>
-						</div>	
-						
-						<div id ="passerror">
-							<label><b>Password</b></label>
-							<input type="password" placeholder="ENTER YOUR PASSWORD" name="pw" class="inputColor" id="password">
-						<div id = "passposition">
-                        </div>						
-						</div>
-				<!--Login-->		
-							<button class="loginbutton2" type="submit">Login</button>
-							<button class="cancelbutton" type="button" onclick="document.getElementById('id01').style.display='none'">CANCEL</button>
-						</div>
-					</form>
+           
          </div>
          <div id="id02" class="modal">
-           <!--Logup-->
-					<form action="http://webdevfoundations.net/scripts/formdemo.asp" onsubmit="return formValidateup()" class="modal-content">
-						<div class="container">
-						<div id ="nameerrorup">
-							<label><b>User Name</b></label>
-							<input onblur="InvalidName()" type="text" placeholder="ENTER YOUR USERID" name="newname" id="textUserup">
-						<div id="namepositionup"></div>
-						</div>	
-						<div id="passerrorup">
-							<label><b>Password</b></label>
-							<input onblur="InvalidPw()" type="password" placeholder="ENTER YOUR PASSWORD" name="newpassword" id="passwordup">
-						<div id="passpositionup"></div>
-						</div>
-				<!--Logup-->		
-						<div id="gender">
-                            <b>Gender</b>
-                            <input type="radio" name="gender" value="male" id="male" checked="checked"><label for="male">Male</label>
-                            <input type="radio" name="gender" value="female" id="female"><label for="female">Female</label>
-                            <input type="radio" name="gender" value="other" id="other"><label for="other">Other</label>
-                       </div>
-							<button class="loginbutton2" type="submit">REGISTER</button>
-							<button class="cancelbutton" type="button" onclick="document.getElementById('id02').style.display='none'">CANCEL</button>
-						</div>
-					</form>
+          
          </div>
          <div id="error1" class="modal">
             <form action="http://webdevfoundations.net/scripts/formdemo.asp" method="post" class="modal-content">
@@ -108,24 +65,31 @@
          </div>
       </header>
       <nav>
-         <a href="index.html" class="button1"><span>HOME</span></a>
+         <a href="index.php" class="button1"><span>HOME</span></a>
          <div class="dropdown">
             <button class="dropbtn"><span>CATEGORY</span></button>
             <div class="dropdown-content">
                <ul>
-                  <li><a href="pcindex.html">PC GAME</a>
-                  <li><a href="mobile.html">Mobile Game</a>
-                  <li><a href="console.html">Console Game</a>
+                  <li><a href="pcindex.php">PC GAME</a>
+                  <li><a href="mobile.php">Mobile Game</a>
+                  <li><a href="console.php">Console Game</a>
                </ul>
             </div>
          </div>
-         <a href="contact1.html" class="button1"><span>CONTACT</span></a>
-         <a href="sitemap.html" class="button1"><span>SITE MAP</span></a>
-         <a class="button1" href="table.html"><span>RELEASE DATE</span></a>
-		 <a class="button1" href="#"><span>FORUM</span></a>
+         <a href="contact1.php" class="button1"><span>CONTACT</span></a>
+         <a href="sitemap.php" class="button1"><span>SITE MAP</span></a>
+         <a class="button1" href="table.php"><span>RELEASE DATE</span></a>
+		 <a class="button1" href="forum.php"><span>FORUM</span></a>
          <div id="nav_sign">
-            <button class="button" onclick="document.getElementById('id01').style.display='block'">SIGN IN</button>&nbsp;<button class="button" 
-               onclick="document.getElementById('id02').style.display='block'">SIGN UP</button>
+            <?php
+			if (isLoggedIn()){
+				echo "Welcome.: ".$_SESSION['SESS_FIRST_NAME']."<br/>";
+				echo '<a href="logout.php">Logout</a><br/>';
+			} else {
+				echo '<a href="reglog.php">Login/Register</a><br/>';
+				
+			}
+		?>
          </div>
       </nav>
 	  
@@ -239,3 +203,4 @@ exit();
          <!--End of scroll button-->
       </script>
 	<img class="scroll-to-top-link" src="images/upbutton.png" alt="scroll up button">
+	</html>
