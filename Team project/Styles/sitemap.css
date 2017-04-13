@@ -79,6 +79,7 @@ nav {
 	background-color:black;
 	width:100%;
 	text-align: center;
+	border-bottom:2px solid white;
 }
 #nav_sign{
 	padding-right:2em;
