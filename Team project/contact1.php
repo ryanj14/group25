@@ -74,8 +74,13 @@
 		
 		<div id="all">
 			<main>
-				<form method="post" action="http://webdevfoundations.net/scripts/formdemo.asp" name="postcomments">
+				<form method="post" action="http://www.your-host-name.com/formmail.php" name="SampleForm">
+    <input type="hidden" name="env_report" value="REMOTE_HOST,REMOTE_ADDR,HTTP_USER_AGENT,AUTH_TYPE,REMOTE_USER" />
 				
+				<input type="hidden" name="recipients" value="rjoseph14@my.bcit.ca" />
+				
+				    <input type="hidden" name="subject" value="Sample FormMail Testing" />
+					
 					<fieldset id="upperf">
 					
 						<legend id = "contact_123"><strong>Contact us rightnow !</strong></legend>
