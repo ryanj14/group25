@@ -1,9 +1,9 @@
+html{height:100%;}
 body {
 	background-image: url("../images/back.jpg");
 	background-repeat: no-repeat;
-	background-size: 101% 100%;
-	margin:0px;
-	padding:0px;
+	background-size: 101% 118%;
+	height:100%;
 	font-family: "Times New Roman", Times, serif;
 }
 header {background-color:white;}
@@ -206,10 +206,14 @@ nav strong {
 	text-shadow:3px 3px 3px white;
 }
 main {
+	padding-top:7%;
 	color:black;
 	width:48%;
+	height:100%;
 	margin-left:auto;
 	margin-right:auto;
+	padding-bottom:0px;
+	margin-bottom:0px;
 }
 #force {margin-top:21%}
 #banner1 {float:right;}
