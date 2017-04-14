@@ -92,7 +92,9 @@
             <p class="videoname">The first Hearthstone expansion for 2017</p>
          </div>
          <div class="details">
-            <p><b>Detail Information:<br></b>Super Mario Run features three principle game modes: the core game where the player controls Mario or other characters as they automatically run across the screen while timing jumps to collect coins and other awards, a Toad Rally where players compete against ghosts of other players, and a Mushroom Kingdom area for players to expand using coins and other collectibles from the other game modes. The game was produced by series creator Shigeru Miyamoto, and was developed primarily by the same team that had developed New Super Mario Bros. for the Nintendo DS, featuring many similar gameplay concepts adapted for ease of mobile controllers. Unlike many other mobile games that use a free-to-play approach, Super Mario Run is offered as a free demo with a fixed price point to unlock the rest of game's remaining content.</p>
+            <p>Blizzard will be releasing their fifth expansion for Hearthstone next week titled "Journey to Un'Goro". This new expansion will bring in new mechanics such as new legendary cards known as "quest cards". 
+				This will require players to meet certain conditions in order to activate the card; Once these conditions have been met the player will be rewarded with powerful minions.</p>
+				<p>Another feature with the expansion is "adapt". When certain conditions are met with minions on the field, they can upgrade these minions to be more stronger than before. Examples of these would be giving that minion more health, divine shield, taunt, etc. All of this and with 135 new cards at launch on April 6, 2017.</p>
          </div>
          <p class="back"><a href="index.php">&larr;BACK</a></p>
       </main>

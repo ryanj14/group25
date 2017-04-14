@@ -92,10 +92,11 @@
 	  <img src="images/maxresdefault.jpg" alt="cyberpunk scene">
 	  </div>
          <div class="details">
-            <p><b>Detail Information:<br></b>Suspendisse vel lacus et mauris volutpat tincidunt luctus sed risus. Nullam eu auctor dolor. Nulla auctor, nisl nec fringilla pellentesque, risus dui tristique leo, vel sagittis nunc neque id massa. 
-               Donec volutpat, arcu in blandit sollicitudin, quam sapien euismod orci, sit amet suscipit ex nisl eu est. Phasellus et mauris ante. Integer turpis arcu, fermentum nec sagittis quis, ultricies et elit. 
-               Cras eu quam tortor.
+		 <p>CD Projekt Red has taken to Twitter to defend their decision to trademark the word "Cyberpunk".
+            <p>CD Projekt Red has been explaining the recent trademark controversy, claiming, "We want to protect our hard work and we don't plan on using the trademark offensively--it's a self-defence measure only".
             </p>
+			<p>"Cyberpunk 2077 … is a massive project and we've already invested a lot of hard work and resources into making it the best game we can," the developer continued. "We have to make sure we are the only entity that can use its exact name and naming scheme.</p>
+			<p>It's understandable to why they need to trademark the name "Cyberpunk" to protect that name for future use by the company. It was good of CD Projekt Red communicate with their audience and gave their reasons why they needed to copyright that word.
 			<p>Source: <a href="https://twitter.com/CDPROJEKTRED/status/850022540042960896">Twitter</a>
          </div>
          <p class="back"><a href="index.php">&larr;BACK</a></p>

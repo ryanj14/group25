@@ -92,16 +92,12 @@
 	  </div>
 	  <div class="details2">
 		<img src="images/AlexanderHutchinson.jpg" alt="Alex Hutchinson">
-		<p class="videoname">Magikarp use "Splash" attack!</p>
+		<p class="videoname">Alex Hutchinson known for his work in ACIII & Far Cry 4</p>
 	  </div>
          <div class="details">
-            <p><b>Detail Information:<br></b>Nullam sit amet dapibus ante. Phasellus euismod, nisl vel ultrices eleifend, leo lorem sagittis elit, nec accumsan magna velit nec nisl. 
-               Nam posuere, ligula a mollis egestas, ipsum justo vehicula ligula, sed volutpat turpis turpis a urna. Suspendisse tellus libero, euismod ac pharetra volutpat, ornare vel nulla.
-               Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-               Curabitur efficitur neque nec nisi pharetra malesuada. 
-               Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+            <p>Alex Hutchinson has left Ubisoft after seven years with the company to create his own studio. Alex was known for his projects usch as Assassin's Creed III and Far Cry 4. The former project director announced his departure on Twitter this week. Alex said to stay tuned for his next project with his new studio.
             </p>
-			<p> <a href="https://twitter.com/BangBangClick/status/850439681758068738">Twitter</a></p>
+			<p>Source: <a href="https://twitter.com/BangBangClick/status/850439681758068738">Twitter</a></p>
          </div>
          <p class="back"><a href="index.php">&larr;BACK</a></p>
       </main>

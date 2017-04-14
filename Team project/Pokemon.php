@@ -92,7 +92,7 @@
 		<p class="videoname">Magikarp use "Splash" attack!</p>
 	  </div>
          <div class="details">
-            <p><b>Detail Information:<br></b>Chikorita, Cyndaquil, Totodile, and many more Pokémon are nearly here! Starting later this week, you’ll have the opportunity to catch more than 80 Pokémon originally discovered in the Johto region in the Pokémon Gold and Pokémon Silver video games. We’ve also implemented some new features to enhance your Pokémon GO experience. Chikorita, Cyndaquil, Totodile, and many more Pokémon are nearly here! Starting later this week, you’ll have the opportunity to catch more than 80 Pokémon originally discovered in the Johto region in the Pokémon Gold and Pokémon Silver video games. We’ve also implemented some new features to enhance your Pokémon GO experience. Chikorita, Cyndaquil, Totodile, and many more Pokémon are nearly here! Starting later this week, you’ll have the opportunity to catch more than 80 Pokémon originally discovered in the Johto region in the Pokémon Gold and Pokémon Silver video games. We’ve also implemented some new features to enhance your Pokémon GO experience. </p>
+            <p>A new Pokemon Go event is already underway and they're celebrating water-type Pokemon. The Pokemon receiving the most attention this event is Magikarp. With the new update players will have a chance to catch shiny Pokemon but this is limited to both Magikarp and Gyarados. The chances of obtaining a shiny Pokemon is slim chances, much like the games, and players will have to be extremely lucky to encounter one.</p>
          </div>
          <p class="back"><a href="index.php">&larr;BACK</a></p>
       </main>
