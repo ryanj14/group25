@@ -23,7 +23,7 @@
    <head>
       <title>PC games</title>
       <meta charset="utf-8">
-      <Link rel="stylesheet" href="Styles/pcgame.css">
+      <Link rel="stylesheet" href="Styles/loginmodule.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
       <script>
          <!--Beggining of scroll up button-->
@@ -41,12 +41,7 @@
    <script src="Styles/contact.js">
 		</script>
       <header>
-         <div id="id01" class="modal">
-           
-         </div>
-         <div id="id02" class="modal">
-          
-         </div>
+         
          <div id="error1" class="modal">
             <form action="http://webdevfoundations.net/scripts/formdemo.asp" method="post" class="modal-content">
                <div >
@@ -94,7 +89,8 @@
       </nav>
 	  
 	  <!------------------------>
-<main>	  
+<main>
+<div id="totalheight">	  
 <table width="400" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#CCCCCC">
 <tr>
 <td><table width="100%" border="0" cellpadding="3" cellspacing="1" bordercolor="1" bgcolor="#FFFFFF">
@@ -136,13 +132,13 @@ while($rows=mysqli_fetch_array($result2)){
 <tr>
 <td width="18%" bgcolor="#F8F7F1"><strong>Name</strong></td>
 <td width="5%" bgcolor="#F8F7F1">:</td>
-<td width="77%" bgcolor="#F8F7F1"></td>
+<td width="77%" bgcolor="#F8F7F1"><?php echo $rows['firstname']; ?></td>
 </tr>
 <tr>
 <td bgcolor="#F8F7F1"><strong>Response</strong></td>
 <td bgcolor="#F8F7F1">:</td>
 <td bgcolor="#F8F7F1"><?php echo $rows['response']; ?></td>
-<td width="77%" bgcolor="F8F7F1"><?php echo $rows['firstname']; ?></td>
+<td width="77%" bgcolor="F8F7F1"></td>
 </tr>
 <tr>
 <td bgcolor="#F8F7F1"><strong>Date/Time</strong></td>
@@ -152,7 +148,7 @@ while($rows=mysqli_fetch_array($result2)){
 </table></td>
 </tr>
 </table><br>
-</main>	
+
 
 <?php
 }
@@ -186,7 +182,8 @@ exit();
 </form>
 </tr>
 </table>
-
+</div>
+</main>	
 <footer>
          <p>COPYRIGHT&copy; X-GLOBAL LTD DESIGNED BY RYAN|WEI|KEN<a href="https://www.facebook.com"><img src="images/fb.png" alt="fb"></a><a href="https://www.instagram.com/?hl=en"><img src="images/ig.png" alt="ig"></a><a href="https://twitter.com/?lang=en"><img src="images/twitter.png" alt="twitter"></a></p>
       </footer>
@@ -203,4 +200,5 @@ exit();
          <!--End of scroll button-->
       </script>
 	<img class="scroll-to-top-link" src="images/upbutton.png" alt="scroll up button">
+	</body>
 	</html>

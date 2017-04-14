@@ -90,7 +90,7 @@
             <h3><a href="contact1.php">Contacts</a></h3>
             <h3><a href="sitemap.php">Site Map</a></h3>
             <h3><a href="table.php">Release Date</a></h3>
-			<h3><a href="#">Forum</a></h3>
+			<h3><a href="forum.php">Forum</a></h3>
             <br class="clearright">
             <br class="clearright">
          </div>
